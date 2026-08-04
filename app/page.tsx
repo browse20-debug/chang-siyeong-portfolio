@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { HeroSlideshow } from "./HeroSlideshow";
+import { WorkIndex } from "./WorkIndex";
 import { profile, projects, services } from "./content";
 
 export default function Home() {
@@ -48,40 +49,27 @@ export default function Home() {
       </section>
 
       <section className="work-section" id="work" aria-labelledby="work-title">
-        <div className="section-heading" data-reveal>
-          <p className="index">01</p>
-          <h2 id="work-title">Work</h2>
-          <p className="section-note">Brand archive · 03</p>
+        <div className="work-intro" data-reveal>
+          <p className="work-intro__trail">
+            Chang Siyeong <span aria-hidden="true">→</span> Selected archive
+          </p>
+          <p className="work-intro__copy">
+            Fashion, lookbook, commerce and advertising photography shaped
+            with clear light and quiet detail.
+          </p>
         </div>
 
-        <div className="project-grid">
-          {projects.map((project, index) => (
-            <Link
-              className={`project-card project-card--${project.size} reveal-delay-${index % 2}`}
-              href={`/projects/${project.slug}`}
-              key={project.slug}
-              data-reveal
-            >
-              <figure>
-                <div className="project-image" data-parallax>
-                  <img
-                    src={project.cover}
-                    alt={`${project.title} — ${project.category}`}
-                    loading={index > 1 ? "lazy" : "eager"}
-                  />
-                </div>
-                <figcaption>
-                  <p className="project-number">
-                    {String(index + 1).padStart(2, "0")}
-                  </p>
-                  <h3>{project.title}</h3>
-                  <p>{project.category}</p>
-                  <p>{project.year}</p>
-                </figcaption>
-              </figure>
-            </Link>
-          ))}
+        <div className="work-titlebar" data-reveal>
+          <div>
+            <p className="index">01</p>
+            <h2 id="work-title">Work</h2>
+          </div>
+          <p className="section-note">
+            {String(projects.length).padStart(2, "0")} projects
+          </p>
         </div>
+
+        <WorkIndex projects={projects} />
       </section>
 
       <section className="about-section" id="about" aria-labelledby="about-title">

@@ -32,6 +32,7 @@ export const services = ["Fashion", "Lookbook", "Commerce", "Advertising"];
 export type Project = {
   slug: string;
   title: string;
+  // category에 적은 문구가 홈 WORK의 분류 탭에도 자동으로 표시됩니다.
   category: string;
   year: string;
   size: "wide" | "portrait" | "standard";

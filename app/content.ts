@@ -325,7 +325,7 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "marithe",
     title: "MARITHÉ",
-    category: "Editorial",
+    category: "Fashion",
     year: "2026",
     size: "portrait",
     cover:"/photos/marithe/cover.jpg",
@@ -335,7 +335,7 @@ export const projects: Project[] = [
     credits: [
       { label: "Photography", value: "Chang Siyeong" },
       { label: "Client", value: "MARITHÉ" },
-      { label: "Type", value: "fashion" },
+      { label: "Type", value: "Fashion" },
       { label: "Set", value: "Studio" },
     ],
     gallery: [
@@ -427,7 +427,7 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "Galleria",
     title: "Galleria December",
-    category: "Editorial",
+    category: "Magazine",
     year: "2026",
     size: "portrait",
     cover:"/photos/Galleria December/cover.jpg",
@@ -438,7 +438,7 @@ export const projects: Project[] = [
     credits: [
       { label: "Photography", value: "Chang Siyeong" },
       { label: "Client", value: "Galleria December" },
-      { label: "Type", value: "fashion" },
+      { label: "Type", value: "Magazine" },
       { label: "Set", value: "Studio" },
     ],
     gallery: [
@@ -501,7 +501,7 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "greenbutter",
     title: "26 S/S Greenbutter",
-    category: "fashion",
+    category: "Fashion",
     year: "2026",
     size: "portrait",
     cover:"/photos/greenbutter/26ss4/cover.jpg",
@@ -624,7 +624,7 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "LA_eql",
     title: "26 FW LA_eql",
-    category: "fashion",
+    category: "Fashion",
     year: "2026",
     size: "portrait",
     cover:"/photos/la_eql/26fw/cover.jpg",
@@ -635,7 +635,7 @@ export const projects: Project[] = [
     credits: [
       { label: "Photography", value: "Chang Siyeong" },
       { label: "Client", value: "LA_eql" },
-      { label: "Type", value: "fashion" },
+      { label: "Type", value: "Fashion" },
       { label: "Set", value: "Studio" },
     ],
     gallery: [
@@ -719,6 +719,93 @@ export const projects: Project[] = [
         alt: "Model in a graphic look",
         orientation: "portrait",
       },
+      
+
+      
+    
+
+    ],
+  },
+    {
+    // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
+    slug: "Loeil_studio",
+    title: "26 SS Loeil_studio Denim",
+    category: "Fashion",
+    year: "2026",
+    size: "portrait",
+    cover:"/photos/loeil_studio/denim/cover.jpg",
+   // logo: "/logos/LA_EQL-logo.png",
+
+    description:
+      "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
+    credits: [
+      { label: "Photography", value: "Chang Siyeong" },
+      { label: "Client", value: "Loeil_studio" },
+      { label: "Type", value: "Fashion" },
+      { label: "Set", value: "Studio" },
+    ],
+    gallery: [
+      {
+        src: "/photos/loeil_studio/denim/01.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/02.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/03.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/04.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/05.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/06.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/07.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/08.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/09.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/10.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/11.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/loeil_studio/denim/12.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      
       
 
       

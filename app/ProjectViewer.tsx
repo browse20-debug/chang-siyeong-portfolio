@@ -15,12 +15,15 @@ type ViewerImage = {
   orientation: "wide" | "portrait";
 };
 
+// 👇 1. logo 정보를 받을 수 있도록 타입을 추가했습니다.
 type ProjectViewerProps = {
   images: ViewerImage[];
   title: string;
+  logo?: string; 
 };
 
-export function ProjectViewer({ images, title }: ProjectViewerProps) {
+// 👇 2. 컴포넌트가 logo를 받아오도록 수정했습니다.
+export function ProjectViewer({ images, title, logo }: ProjectViewerProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [direction, setDirection] = useState<"next" | "previous">("next");
   const [viewMode, setViewMode] = useState<"slider" | "grid">("slider");
@@ -200,6 +203,7 @@ export function ProjectViewer({ images, title }: ProjectViewerProps) {
             id="project-gallery-content"
             onTouchStart={handleTouchStart}
             onTouchEnd={handleTouchEnd}
+            style={{ position: "relative" }} /* 로고 위치 고정을 위해 추가 */
           >
             <img
               className={`project-viewer__image project-viewer__image--${direction}`}
@@ -210,6 +214,24 @@ export function ProjectViewer({ images, title }: ProjectViewerProps) {
               fetchPriority={activeIndex === 0 ? "high" : "auto"}
               decoding="async"
             />
+
+            {/* 👇 3. 로고가 있다면 우측 하단에 띄우는 코드입니다. */}
+            {logo && (
+              <img
+                src={logo}
+                alt={`${title} 로고`}
+                className="project-viewer__logo"
+                style={{
+                  position: "absolute",
+                  bottom: "24px",
+                  right: "24px",
+                  height: "40px", // 로고 크기 (필요시 조절)
+                  width: "auto",
+                  zIndex: 10,
+                  pointerEvents: "none", // 로고 때문에 사진 넘기기 터치가 방해받지 않도록 설정
+                }}
+              />
+            )}
 
             {total > 1 && (
               <>

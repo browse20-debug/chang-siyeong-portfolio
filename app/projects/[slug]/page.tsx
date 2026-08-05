@@ -55,6 +55,7 @@ export default async function ProjectPage({
         <ProjectViewer
           images={project.gallery}
           title={project.title}
+          logo={project.logo}
           key={project.slug}
         />
       </section>

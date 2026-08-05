@@ -38,6 +38,7 @@ export type Project = {
   year: string;
   size: "wide" | "portrait" | "standard";
   cover: string;
+  logo?: string;
   description: string;
   credits: { label: string; value: string }[];
   // 사진을 추가하면 이 브랜드 상세 뷰어의 슬라이드가 자동으로 늘어납니다.
@@ -47,47 +48,94 @@ export type Project = {
 export const projects: Project[] = [
   {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
-    slug: "brand-01",
-    title: "Brand 01",
+    slug: "Zara",
+    title: "Zara Woman Editorial",
     category: "Fashion Campaign",
     year: "2026",
-    size: "wide",
-    cover:
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=2200&q=88",
+    size: "portrait",
+    cover:"photos/zara/cover.jpg",
+    logo: "/logos/zara-logo.png",
+
     description:
       "A fashion campaign built around restrained movement, graphic silhouettes, and a calm visual rhythm.",
     credits: [
       { label: "Photography", value: "Chang Siyeong" },
-      { label: "Client", value: "Brand 01" },
+      { label: "Client", value: "Zara Woman Editorial" },
       { label: "Type", value: "Campaign" },
       { label: "Location", value: "Seoul" },
     ],
     gallery: [
       {
-        src: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=2200&q=90",
+        src: "photos/zara/01.jpg",
+        alt: "Fashion portrait in a minimal studio",
+        orientation: "portrait",
+      },
+      {
+        src: "photos/zara/02.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "wide",
       },
       {
-        src: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=88",
-        alt: "Close fashion portrait",
+        src: "photos/zara/03.jpg",
+        alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1800&q=88",
-        alt: "Street fashion portrait",
+        src: "photos/zara/04.jpg",
+        alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=2000&q=88",
-        alt: "Fashion retail environment",
+        src: "photos/zara/05.jpg",
+        alt: "Fashion portrait in a minimal studio",
         orientation: "wide",
       },
       {
-        src: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1600&q=88",
-        alt: "Graphic fashion portrait",
+        src: "photos/zara/06.jpg",
+        alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
+      {
+        src: "photos/zara/07.jpg",
+        alt: "Fashion portrait in a minimal studio",
+        orientation: "portrait",
+      },
+      {
+        src: "photos/zara/08.jpg",
+        alt: "Fashion portrait in a minimal studio",
+        orientation: "wide",
+      },
+      {
+        src: "photos/zara/09.jpg",
+        alt: "Fashion portrait in a minimal studio",
+        orientation: "portrait",
+      },
+      {
+        src: "photos/zara/10.jpg",
+        alt: "Fashion portrait in a minimal studio",
+        orientation: "portrait",
+      },
+      {
+        src: "photos/zara/11.jpg",
+        alt: "Fashion portrait in a minimal studio",
+        orientation: "portrait",
+      },
+      {
+        src: "photos/zara/12.jpg",
+        alt: "Fashion portrait in a minimal studio",
+        orientation: "portrait",
+      },
+      {
+        src: "photos/zara/13.jpg",
+        alt: "Fashion portrait in a minimal studio",
+        orientation: "portrait",
+      },
+      {
+        src: "photos/zara/14.jpg",
+        alt: "Fashion portrait in a minimal studio",
+        orientation: "portrait",
+      },
+
     ],
   },
   {
@@ -265,7 +313,7 @@ export const projects: Project[] = [
 // 메인 배너 아래 FEATURED WORKS에 보여줄 브랜드 5개입니다.
 // projects에 있는 slug를 원하는 순서대로 5개만 적으면 됩니다.
 export const homepageFeaturedSlugs = [
-  "brand-01",
+  "Zara",
   "brand-02",
   "brand-03",
   "brand-04",
@@ -279,7 +327,7 @@ export const homepageFeaturedProjects = homepageFeaturedSlugs
 
 // 이 목록에는 촬영한 브랜드 이름만 적으세요. 줄을 추가하거나 지워도 됩니다.
 export const brandHighlights = [
-  "Brand 01",
+  "Zara",
   "Brand 02",
   "Brand 03",
   "Brand 04",

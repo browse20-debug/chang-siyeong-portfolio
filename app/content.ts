@@ -813,6 +813,93 @@ export const projects: Project[] = [
 
     ],
   },
+   {
+    // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
+    slug: "Arha",
+    title: "26 Arha",
+    category: "Fashion",
+    year: "2026",
+    size: "portrait",
+    cover:"/photos/arha/26/cover.jpg",
+   // logo: "/logos/LA_EQL-logo.png",
+
+    description:
+      "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
+    credits: [
+      { label: "Photography", value: "Chang Siyeong" },
+      { label: "Client", value: "Arha" },
+      { label: "Type", value: "Fashion" },
+      { label: "Set", value: "Studio" },
+    ],
+    gallery: [
+      {
+        src: "/photos/arha/26/01.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/02.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/03.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/04.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/05.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/06.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/07.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/08.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/09.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/10.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/11.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/arha/26/12.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      
+      
+
+      
+    
+
+    ],
+  },
 ];
 
 // 메인 배너 아래 FEATURED WORKS의 우선 노출 순서입니다.

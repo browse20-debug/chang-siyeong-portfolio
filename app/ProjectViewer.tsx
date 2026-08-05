@@ -181,7 +181,7 @@ export function ProjectViewer({ images, title, logo }: ProjectViewerProps) {
         >
           {images.map((image, index) => (
             <button
-              className="project-viewer__grid-item"
+              className={`project-viewer__grid-item project-viewer__grid-item--${image.orientation}`}
               type="button"
               onClick={() => openGridImage(index)}
               aria-label={`${index + 1}번째 사진을 슬라이드로 보기`}
@@ -192,6 +192,18 @@ export function ProjectViewer({ images, title, logo }: ProjectViewerProps) {
                 alt={image.alt}
                 loading="lazy"
                 decoding="async"
+                onLoad={(event) => {
+                  const imageElement = event.currentTarget;
+                  const orientation =
+                    imageElement.naturalWidth >= imageElement.naturalHeight
+                      ? "wide"
+                      : "portrait";
+
+                  imageElement.parentElement?.setAttribute(
+                    "data-orientation",
+                    orientation,
+                  );
+                }}
               />
             </button>
           ))}

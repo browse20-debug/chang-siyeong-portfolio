@@ -376,13 +376,13 @@ img {
 .home-featured-card--7 .home-featured-card__image,
 .home-featured-card--8 .home-featured-card__image,
 .home-featured-card--10 .home-featured-card__image {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 4;
 }
 
 .home-featured-card--3 .home-featured-card__image,
 .home-featured-card--6 .home-featured-card__image,
 .home-featured-card--9 .home-featured-card__image {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 4 / 3;
 }
 
 .home-featured-card__image > img:not(.project-card__logo) {
@@ -1290,6 +1290,7 @@ footer {
 .project-viewer__grid-item {
   display: block;
   width: 100%;
+  aspect-ratio: 3 / 4;
   margin: 0 0 8px;
   padding: 0;
   break-inside: avoid;
@@ -1298,8 +1299,20 @@ footer {
   cursor: pointer;
 }
 
+.project-viewer__grid-item--wide,
+.project-viewer__grid-item[data-orientation="wide"] {
+  aspect-ratio: 4 / 3;
+}
+
+.project-viewer__grid-item--portrait,
+.project-viewer__grid-item[data-orientation="portrait"] {
+  aspect-ratio: 3 / 4;
+}
+
 .project-viewer__grid-item img {
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: opacity 240ms ease;
 }
 

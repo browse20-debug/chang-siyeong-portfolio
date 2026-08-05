@@ -50,7 +50,7 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "Zara",
     title: "Zara Woman Editorial",
-    category: "Fashion Campaign",
+    category: "Fashion",
     year: "2026",
     size: "portrait",
     cover:"/photos/zara/cover.jpg",
@@ -140,13 +140,12 @@ export const projects: Project[] = [
   },
   {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
-    slug: "brand-02",
-    title: "Brand 02",
-    category: "Lookbook",
+    slug: "blue",
+    title: "#1",
+    category: "Editorial",
     year: "2026",
     size: "portrait",
-    cover:
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1600&q=88",
+    cover:"/photos/cinema/01/cover.jpg",
     description:
       "A seasonal lookbook focused on proportion, material, and the small gestures that reveal how a garment moves.",
     credits: [
@@ -157,41 +156,67 @@ export const projects: Project[] = [
     ],
     gallery: [
       {
-        src: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1800&q=90",
+        src: "/photos/cinema/01/01.jpg",
         alt: "Model in a graphic look",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=2000&q=88",
-        alt: "Editorial fashion styling",
-        orientation: "wide",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1600&q=88",
-        alt: "Outdoor fashion look",
+        src: "/photos/cinema/01/02.jpg",
+        alt: "Model in a graphic look",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d8b?auto=format&fit=crop&w=1800&q=88",
-        alt: "Close studio portrait",
+        src: "/photos/cinema/01/03.jpg",
+        alt: "Model in a graphic look",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=2000&q=88",
-        alt: "Portrait with warm natural light",
-        orientation: "wide",
+        src: "/photos/cinema/01/04.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
       },
+      {
+        src: "/photos/cinema/01/05.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/01/06.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/01/07.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/01/08.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/01/09.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/01/10.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+
+
     ],
   },
   {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
-    slug: "brand-03",
-    title: "Brand 03",
-    category: "Commerce & Advertising",
+    slug: "cinema",
+    title: "#2",
+    category: "Editorial",
     year: "2025",
-    size: "standard",
-    cover:
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1800&q=88",
+    size: "portrait",
+    cover:"/photos/cinema/02/cover.jpg",
     description:
       "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
     credits: [
@@ -202,37 +227,105 @@ export const projects: Project[] = [
     ],
     gallery: [
       {
-        src: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=2000&q=90",
-        alt: "Cosmetics arranged on a neutral surface",
-        orientation: "wide",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1600&q=88",
-        alt: "Beauty products in studio light",
+        src: "/photos/cinema/02/01.jpg",
+        alt: "Model in a graphic look",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1800&q=88",
-        alt: "Perfume product detail",
+        src: "/photos/cinema/02/02.jpg",
+        alt: "Model in a graphic look",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=2000&q=88",
-        alt: "Curated fashion pieces",
-        orientation: "wide",
+        src: "/photos/cinema/02/03.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=2000&q=90",
-        alt: "Campaign portrait outdoors",
-        orientation: "wide",
+        src: "/photos/cinema/02/04.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
       },
+      {
+        src: "/photos/cinema/02/05.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/06.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/07.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/08.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/09.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/10.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/11.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/12.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/13.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/14.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/15.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/16.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/17.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/cinema/02/18.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      
+
+
     ],
   },
   {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "brand-04",
     title: "Brand 04",
-    category: "Fashion Campaign",
+    category: "Fashion",
     year: "2025",
     size: "standard",
     cover:

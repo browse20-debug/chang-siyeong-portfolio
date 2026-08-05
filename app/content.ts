@@ -620,6 +620,112 @@ export const projects: Project[] = [
 
     ],
   },
+   {
+    // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
+    slug: "LA_eql",
+    title: "26 FW LA_eql",
+    category: "fashion",
+    year: "2026",
+    size: "portrait",
+    cover:"/photos/la_eql/26fw/cover.jpg",
+   // logo: "/logos/LA_EQL-logo.png",
+
+    description:
+      "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
+    credits: [
+      { label: "Photography", value: "Chang Siyeong" },
+      { label: "Client", value: "LA_eql" },
+      { label: "Type", value: "fashion" },
+      { label: "Set", value: "Studio" },
+    ],
+    gallery: [
+      {
+        src: "/photos/la_eql/26fw/01.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/02.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/03.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/04.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/05.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/06.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/07.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/08.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/09.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/10.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/11.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/12.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/13.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/14.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/15.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/la_eql/26fw/16.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      
+
+      
+    
+
+    ],
+  },
 ];
 
 // 메인 배너 아래 FEATURED WORKS의 우선 노출 순서입니다.
@@ -631,6 +737,7 @@ export const homepageFeaturedSlugs = [
   "marithe",
   "cinema",
   "greenbutter",
+  "LA_eql",
 ];
 
 const orderedHomepageProjects = homepageFeaturedSlugs
@@ -649,9 +756,9 @@ export const brandHighlights = [
   "Zara",
   "Galleria",
   "blue",
-  "marithe",
-  "#cinema",
+  "MARITHÉ",
   "Greenbutter",
+  "LA_eql",
 ];
 
 export function getProject(slug: string) {

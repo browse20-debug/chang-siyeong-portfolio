@@ -23,7 +23,7 @@ export default async function ProjectPage({
   return (
     <main className="project-page">
       <header className="project-header project-header--viewer">
-        <Link className="project-back" href="/#work" aria-label="작업 목록으로 돌아가기">
+        <Link className="project-back" href="/work" aria-label="작업 목록으로 돌아가기">
           <span aria-hidden="true">←</span>
           <span>Work</span>
         </Link>

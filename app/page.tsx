@@ -1,27 +1,17 @@
 import Link from "next/link";
 import { HeroSlideshow } from "./HeroSlideshow";
-import { WorkIndex } from "./WorkIndex";
-import {
-  brandHighlights,
-  profile,
-  projects,
-  services,
-} from "./content";
+import { homepageFeaturedProjects, profile, services } from "./content";
 
 export default function Home() {
-  const featuredProjects = projects
-    .filter((project) => project.featured)
-    .slice(0, 5);
-
   return (
     <main>
-      <header className="site-header">
+      <header className="site-header site-header--home">
         <Link className="wordmark" href="/" aria-label="Chang Siyeong home">
           CHANG<br />SIYEONG
         </Link>
 
         <nav className="desktop-nav" aria-label="Primary navigation">
-          <a href="#work">Work</a>
+          <Link href="/work">Work</Link>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -29,7 +19,7 @@ export default function Home() {
         <details className="mobile-menu">
           <summary aria-label="Open navigation">Menu</summary>
           <nav aria-label="Mobile navigation">
-            <a href="#work">Work</a>
+            <Link href="/work">Work</Link>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
           </nav>
@@ -42,114 +32,71 @@ export default function Home() {
           intervalMs={profile.heroIntervalMs}
         />
         <div className="hero-shade" />
-        <div className="hero-copy">
-          <p className="eyebrow">Photographer · Seoul</p>
-          <h1 id="hero-title">
-            Images with
-            <br />
-            a quiet pulse.
-          </h1>
-          <p className="hero-korean">
-            패션과 브랜드의 태도를
-            <br />
-            선명한 이미지로 기록합니다.
-          </p>
+        <p className="hero-statement">
+          Fashion, lookbook, commerce and advertising—photographed with
+          considered light and a quiet sense of movement.
+        </p>
+        <h1 className="hero-wordmark" id="hero-title">
+          <span>CHANG</span>
+          <span>SIYEONG</span>
+        </h1>
+        <div className="hero-meta" aria-label="Photographer information">
+          <p>Photographer · Seoul</p>
+          <p>© Chang Siyeong {new Date().getFullYear()}</p>
         </div>
       </section>
 
       <section
-        className="featured-section"
-        aria-labelledby="featured-title"
+        className="home-featured"
+        aria-labelledby="home-featured-title"
       >
-        <div className="featured-heading" data-reveal>
-          <div>
-            <p className="index">Selected</p>
-            <h2 id="featured-title">Highlights</h2>
-          </div>
-          <p className="section-note">
-            Selected · {String(featuredProjects.length).padStart(2, "0")}
+        <div className="home-featured__heading" data-reveal>
+          <h2 id="home-featured-title">Featured Works</h2>
+          <p>
+            Selected ·{" "}
+            {String(homepageFeaturedProjects.length).padStart(2, "0")}
           </p>
         </div>
 
-        <div className="featured-grid">
-          {featuredProjects.map((project, index) => (
+        <div className="home-featured__grid">
+          {homepageFeaturedProjects.map((project, index) => (
             <Link
-              className="featured-card"
+              className={`home-featured-card home-featured-card--${index + 1}`}
               href={`/projects/${project.slug}`}
               key={project.slug}
               data-reveal
             >
               <figure>
-                <div className="featured-image" data-parallax>
+                <div className="home-featured-card__image" data-parallax>
                   <img
                     src={project.cover}
                     alt={`${project.title} — ${project.category}`}
                     loading="lazy"
                   />
+                  <span className="home-featured-card__view" aria-hidden="true">
+                    View
+                  </span>
                 </div>
                 <figcaption>
-                  <span>
-                    <i aria-hidden="true" />
-                    {project.title}
-                  </span>
-                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <span>{project.title}</span>
+                  <small>
+                    {project.category} · {project.year}
+                  </small>
                 </figcaption>
               </figure>
             </Link>
           ))}
         </div>
 
-        <a className="featured-all" href="#work" data-reveal>
-          View all work <span aria-hidden="true">↓</span>
-        </a>
-      </section>
-
-      <section className="work-section" id="work" aria-labelledby="work-title">
-        <div className="work-intro" data-reveal>
-          <p className="work-intro__trail">
-            Chang Siyeong <span aria-hidden="true">→</span> Selected archive
-          </p>
-          <p className="work-intro__copy">
-            Fashion, lookbook, commerce and advertising photography shaped
-            with clear light and quiet detail.
-          </p>
-        </div>
-
-        <div className="work-titlebar" data-reveal>
-          <div>
-            <p className="index">01</p>
-            <h2 id="work-title">Work</h2>
-          </div>
-          <p className="section-note">
-            {String(projects.length).padStart(2, "0")} projects
-          </p>
-        </div>
-
-        <WorkIndex projects={projects} />
-      </section>
-
-      <section
-        className="brand-highlights-section"
-        aria-labelledby="brand-highlights-title"
-      >
-        <div className="brand-highlights-heading" data-reveal>
-          <div>
-            <p className="index">02</p>
-            <h2 id="brand-highlights-title">Brand Highlights</h2>
-          </div>
-          <p className="section-note">Selected clients</p>
-        </div>
-
-        <ul className="brand-name-list" data-reveal>
-          {brandHighlights.map((brand) => (
-            <li key={brand}>{brand}</li>
-          ))}
-        </ul>
+        <Link className="home-featured__all" href="/work" data-reveal>
+          <span>View all work</span>
+          <i aria-hidden="true">↗</i>
+        </Link>
       </section>
 
       <section className="about-section" id="about" aria-labelledby="about-title">
         <div className="section-heading section-heading--light" data-reveal>
-          <p className="index">03</p>
+          <p className="index">02</p>
           <h2 id="about-title">About</h2>
           <p className="section-note">Chang Siyeong · Photographer</p>
         </div>

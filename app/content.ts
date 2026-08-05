@@ -1,8 +1,9 @@
 /*
  * EDIT HERE FIRST
- * Replace the five sample brand names, text, and image URLs in this file.
+ * Add or replace brand names, text, and image URLs in this file.
  * Each item in `projects` is one brand. It automatically appears on the
- * home page and gets its own photo viewer page.
+ * WORK page and gets its own photo viewer page. Choose the five brands shown
+ * on the home page in `homepageFeaturedSlugs` below.
  */
 
 export const profile = {
@@ -10,16 +11,16 @@ export const profile = {
   role: "Photographer",
   location: "Seoul, Korea",
   email: "hello@changsiyeong.com",
-  instagramUrl: "https://www.instagram.com/",
+  instagramUrl: "https://www.instagram.com/changsiyeong",
   // 첫 배너 사진 목록입니다. "/photos/파일명.jpg" 형식으로 자유롭게 교체하세요.
   heroImages: [
     "/photos/main-01.jpg",
     "/photos/main-02.jpg",
     "/photos/main-03.jpg",
-
-    
+    "/photos/main-04.jpg",
+    "/photos/main-05.jpg",
   ],
-  // 사진이 바뀌는 시간입니다. 5000은 5초입니다.
+  // 사진이 바뀌는 시간입니다. 3000은 3초입니다.
   heroIntervalMs: 3000,
   statement:
     "I create composed, tactile images for people and brands. From the first visual conversation to the final frame, I look for the gesture, texture, and light that make a story feel precise and alive.",
@@ -32,9 +33,7 @@ export const services = ["Fashion", "Lookbook", "Commerce", "Advertising"];
 export type Project = {
   slug: string;
   title: string;
-  // true인 브랜드 중 앞의 5개가 메인 배너 바로 아래 HIGHLIGHTS에 표시됩니다.
-  featured?: boolean;
-  // category에 적은 문구가 홈 WORK의 분류 탭에도 자동으로 표시됩니다.
+  // category에 적은 문구가 WORK 페이지의 분류 탭에도 자동으로 표시됩니다.
   category: string;
   year: string;
   size: "wide" | "portrait" | "standard";
@@ -50,7 +49,6 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "brand-01",
     title: "Brand 01",
-    featured: true,
     category: "Fashion Campaign",
     year: "2026",
     size: "wide",
@@ -96,7 +94,6 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "brand-02",
     title: "Brand 02",
-    featured: true,
     category: "Lookbook",
     year: "2026",
     size: "portrait",
@@ -142,7 +139,6 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "brand-03",
     title: "Brand 03",
-    featured: true,
     category: "Commerce & Advertising",
     year: "2025",
     size: "standard",
@@ -188,7 +184,6 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "brand-04",
     title: "Brand 04",
-    featured: true,
     category: "Fashion Campaign",
     year: "2025",
     size: "standard",
@@ -229,7 +224,6 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "brand-05",
     title: "Brand 05",
-    featured: true,
     category: "Lookbook",
     year: "2025",
     size: "portrait",
@@ -267,6 +261,21 @@ export const projects: Project[] = [
     ],
   },
 ];
+
+// 메인 배너 아래 FEATURED WORKS에 보여줄 브랜드 5개입니다.
+// projects에 있는 slug를 원하는 순서대로 5개만 적으면 됩니다.
+export const homepageFeaturedSlugs = [
+  "brand-01",
+  "brand-02",
+  "brand-03",
+  "brand-04",
+  "brand-05",
+];
+
+export const homepageFeaturedProjects = homepageFeaturedSlugs
+  .map((slug) => projects.find((project) => project.slug === slug))
+  .filter((project): project is Project => project !== undefined)
+  .slice(0, 5);
 
 // 이 목록에는 촬영한 브랜드 이름만 적으세요. 줄을 추가하거나 지워도 됩니다.
 export const brandHighlights = [

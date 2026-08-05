@@ -90,7 +90,7 @@ export function WorkIndex({ projects }: WorkIndexProps) {
                       zIndex: 10,
                       pointerEvents: "none",
                       // logoTheme이 "dark"면 100% 순검정, 그 외(기본/light)는 100% 순백색 단색으로 처리
-                      filter: project.logoTheme === "dark" 
+                      filter: (project as any).logoTheme === "dark" 
                         ? "brightness(0)" 
                         : "brightness(0) invert(1)",
                     }}

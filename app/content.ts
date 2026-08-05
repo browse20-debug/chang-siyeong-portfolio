@@ -150,8 +150,8 @@ export const projects: Project[] = [
       "A seasonal lookbook focused on proportion, material, and the small gestures that reveal how a garment moves.",
     credits: [
       { label: "Photography", value: "Chang Siyeong" },
-      { label: "Client", value: "Brand 02" },
-      { label: "Type", value: "Lookbook" },
+      { label: "Client", value: "1" },
+      { label: "Type", value: "Editorial" },
       { label: "Location", value: "Seoul" },
     ],
     gallery: [
@@ -214,15 +214,15 @@ export const projects: Project[] = [
     slug: "cinema",
     title: "#2",
     category: "Editorial",
-    year: "2025",
+    year: "2026",
     size: "portrait",
     cover:"/photos/cinema/02/cover.jpg",
     description:
       "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
     credits: [
       { label: "Photography", value: "Chang Siyeong" },
-      { label: "Client", value: "Brand 03" },
-      { label: "Type", value: "Commerce" },
+      { label: "Client", value: "#2" },
+      { label: "Type", value: "Editorial" },
       { label: "Set", value: "Studio" },
     ],
     gallery: [
@@ -321,84 +321,180 @@ export const projects: Project[] = [
 
     ],
   },
-  {
+ {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
-    slug: "brand-04",
-    title: "Brand 04",
-    category: "Fashion",
-    year: "2025",
-    size: "standard",
-    cover:
-      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1800&q=88",
+    slug: "marithe",
+    title: "MARITHÉ",
+    category: "Editorial",
+    year: "2026",
+    size: "portrait",
+    cover:"/photos/marithe/cover.jpg",
+    logo: "/logos/MARITHÉ-logo.png",
     description:
-      "A fashion story balancing clean silhouettes, material detail, and an understated commercial rhythm.",
+      "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
     credits: [
       { label: "Photography", value: "Chang Siyeong" },
-      { label: "Client", value: "Brand 04" },
-      { label: "Type", value: "Campaign" },
-      { label: "Location", value: "Seoul" },
+      { label: "Client", value: "MARITHÉ" },
+      { label: "Type", value: "fashion" },
+      { label: "Set", value: "Studio" },
     ],
     gallery: [
       {
-        src: "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=2000&q=90",
-        alt: "Curated fashion pieces",
-        orientation: "wide",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1600&q=88",
-        alt: "Street fashion portrait",
+        src: "/photos/marithe/01.jpg",
+        alt: "Model in a graphic look",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1600&q=88",
-        alt: "Graphic fashion portrait",
+        src: "/photos/marithe/02.jpg",
+        alt: "Model in a graphic look",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=2000&q=88",
-        alt: "Editorial fashion styling",
-        orientation: "wide",
+        src: "/photos/marithe/03.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
       },
+      {
+        src: "/photos/marithe/04.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/05.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/06.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/07.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/08.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/09.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/10.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/11.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/12.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/13.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/14.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/15.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/marithe/16.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+    
+
     ],
   },
-  {
+   {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
-    slug: "brand-05",
-    title: "Brand 05",
-    category: "Lookbook",
-    year: "2025",
+    slug: "Galleria",
+    title: "Galleria December",
+    category: "Editorial",
+    year: "2026",
     size: "portrait",
-    cover:
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1800&q=88",
+    cover:"/photos/Galleria December/cover.jpg",
+    logo: "/logos/Galleria-logo.png",
+    
     description:
-      "A restrained lookbook shaped by natural movement, quiet color, and direct portraiture.",
+      "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
     credits: [
       { label: "Photography", value: "Chang Siyeong" },
-      { label: "Client", value: "Brand 05" },
-      { label: "Type", value: "Lookbook" },
-      { label: "Location", value: "Seoul" },
+      { label: "Client", value: "Galleria December" },
+      { label: "Type", value: "fashion" },
+      { label: "Set", value: "Studio" },
     ],
     gallery: [
       {
-        src: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1800&q=90",
-        alt: "Campaign portrait outdoors",
-        orientation: "wide",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1600&q=88",
-        alt: "Outdoor fashion look",
+        src: "/photos/Galleria December/01.jpg",
+        alt: "Model in a graphic look",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d8b?auto=format&fit=crop&w=1600&q=88",
-        alt: "Close studio portrait",
+        src: "/photos/Galleria December/02.jpg",
+        alt: "Model in a graphic look",
         orientation: "portrait",
       },
       {
-        src: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91d8b?auto=format&fit=crop&w=2000&q=88",
-        alt: "Portrait with warm natural light",
-        orientation: "wide",
+        src: "/photos/Galleria December/03.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
       },
+      {
+        src: "/photos/Galleria December/04.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Galleria December/05.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Galleria December/06.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Galleria December/07.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Galleria December/08.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Galleria December/09.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Galleria December/10.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      
+    
+
     ],
   },
 ];
@@ -407,10 +503,10 @@ export const projects: Project[] = [
 // projects에 있는 slug를 원하는 순서대로 5개만 적으면 됩니다.
 export const homepageFeaturedSlugs = [
   "Zara",
-  "brand-02",
-  "brand-03",
-  "brand-04",
-  "brand-05",
+  "Galleria",
+  "blue",
+  "marithe",
+  "cinema",
 ];
 
 export const homepageFeaturedProjects = homepageFeaturedSlugs
@@ -421,10 +517,10 @@ export const homepageFeaturedProjects = homepageFeaturedSlugs
 // 이 목록에는 촬영한 브랜드 이름만 적으세요. 줄을 추가하거나 지워도 됩니다.
 export const brandHighlights = [
   "Zara",
-  "Brand 02",
-  "Brand 03",
-  "Brand 04",
-  "Brand 05",
+  "Galleria",
+  "blue",
+  "marithe",
+  "#cinema",
 ];
 
 export function getProject(slug: string) {

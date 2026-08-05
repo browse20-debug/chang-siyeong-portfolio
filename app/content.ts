@@ -53,7 +53,7 @@ export const projects: Project[] = [
     category: "Fashion Campaign",
     year: "2026",
     size: "portrait",
-    cover:"photos/zara/cover.jpg",
+    cover:"/photos/zara/cover.jpg",
     logo: "/logos/zara-logo.png",
 
     description:
@@ -66,72 +66,72 @@ export const projects: Project[] = [
     ],
     gallery: [
       {
-        src: "photos/zara/01.jpg",
+        src: "/photos/zara/01.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "photos/zara/02.jpg",
+        src: "/photos/zara/02.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "wide",
       },
       {
-        src: "photos/zara/03.jpg",
+        src: "/photos/zara/03.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "photos/zara/04.jpg",
+        src: "/photos/zara/04.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "photos/zara/05.jpg",
+        src: "/photos/zara/05.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "wide",
       },
       {
-        src: "photos/zara/06.jpg",
+        src: "/photos/zara/06.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "photos/zara/07.jpg",
+        src: "/photos/zara/07.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "photos/zara/08.jpg",
+        src: "/photos/zara/08.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "wide",
       },
       {
-        src: "photos/zara/09.jpg",
+        src: "/photos/zara/09.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "photos/zara/10.jpg",
+        src: "/photos/zara/10.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "photos/zara/11.jpg",
+        src: "/photos/zara/11.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "photos/zara/12.jpg",
+        src: "/photos/zara/12.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "photos/zara/13.jpg",
+        src: "/photos/zara/13.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
       {
-        src: "photos/zara/14.jpg",
+        src: "/photos/zara/14.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },

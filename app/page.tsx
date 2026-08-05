@@ -67,12 +67,38 @@ export default function Home() {
               data-reveal
             >
               <figure>
-                <div className="home-featured-card__image" data-parallax>
+                <div 
+                  className="home-featured-card__image" 
+                  data-parallax
+                  style={{ position: "relative" }}
+                >
                   <img
                     src={project.cover}
                     alt={`${project.title} — ${project.category}`}
                     loading="lazy"
                   />
+                  {project.logo && (
+                    <img
+                      src={project.logo}
+                      alt={`${project.title} logo`}
+                      className="project-card__logo"
+                      style={{
+                        position: "absolute",
+                        bottom: "20px",
+                        right: "20px",
+                        width: "140px",
+                        height: "auto",
+                        maxHeight: "70px",
+                        objectFit: "contain",
+                        zIndex: 10,
+                        pointerEvents: "none",
+                        // logoTheme이 "dark"면 100% 순검정, 그 외(기본/light)는 100% 순백색 단색으로 처리
+                        filter: project.logoTheme === "dark" 
+                          ? "brightness(0)" 
+                          : "brightness(0) invert(1)",
+                      }}
+                    />
+                  )}
                   <span className="home-featured-card__view" aria-hidden="true">
                     View
                   </span>

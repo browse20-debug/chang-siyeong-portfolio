@@ -1850,3 +1850,37 @@ footer {
     display: none;
   }
 }
+
+/* ==========================================================================
+   Project Card Logo Styles (Overriding Global Image Styles)
+   ========================================================================== */
+
+/* 1. 로고 이미지 본연의 위치와 크기를 최우선으로 강제 고정 */
+.project-card__logo {
+  position: absolute !important;
+  bottom: 0 !important;             /* 카드 오른쪽 아래 바닥에 딱 맞닿게 붙임 */
+  right: 0 !important;              /* 우측에 딱 맞닿게 붙임 */
+  width: 58% !important;            /* 카드의 58% 크기로 큼직하게 확대 */
+  max-width: none !important;
+  height: auto !important;
+  max-height: 100px !important;     /* 최대 높이 제한을 넉넉하게 확보 */
+  object-fit: contain !important;
+  object-position: bottom right !important; /* 이미지 내부 기준 오른쪽 아래 정렬 */
+  z-index: 10 !important;
+  pointer-events: none !important;
+}
+
+/* 2. 호버 시 나타나는 'View project ↗' / 'View' 버튼이 로고 뒤나 옆으로 가도록 위치 조정 */
+.project-view-label {
+  left: 12px !important;
+  right: auto !important;          /* VIEW 라벨을 좌측 하단으로 이동하여 로고와 겹침 방지 */
+  bottom: 12px !important;
+}
+
+/* 3. 모바일 화면 대응 (선택사항) */
+@media (max-width: 760px) {
+  .project-card__logo {
+    width: 65% !important;          /* 모바일에서는 화면 크기에 맞춰 더욱 강조 */
+    max-height: 70px !important;
+  }
+}

@@ -846,6 +846,7 @@ export const brandHighlights = [
   "MARITHÉ",
   "Greenbutter",
   "LA_eql",
+  "Loeil_studio",
 ];
 
 export function getProject(slug: string) {

@@ -912,6 +912,8 @@ export const homepageFeaturedSlugs = [
   "cinema",
   "greenbutter",
   "LA_eql",
+  "Loeil_studio",
+  "Arha",
 ];
 
 const orderedHomepageProjects = homepageFeaturedSlugs

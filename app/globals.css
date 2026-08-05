@@ -1568,13 +1568,13 @@ footer {
   .home-featured-card--7 .home-featured-card__image,
   .home-featured-card--8 .home-featured-card__image,
   .home-featured-card--10 .home-featured-card__image {
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 3 / 4;
   }
 
   .home-featured-card--3 .home-featured-card__image,
   .home-featured-card--6 .home-featured-card__image,
   .home-featured-card--9 .home-featured-card__image {
-    aspect-ratio: 1;
+    aspect-ratio: 4 / 3;
   }
 
   .home-featured-card__view {

@@ -1,9 +1,18 @@
 import Link from "next/link";
 import { HeroSlideshow } from "./HeroSlideshow";
 import { WorkIndex } from "./WorkIndex";
-import { profile, projects, services } from "./content";
+import {
+  brandHighlights,
+  profile,
+  projects,
+  services,
+} from "./content";
 
 export default function Home() {
+  const featuredProjects = projects
+    .filter((project) => project.featured)
+    .slice(0, 5);
+
   return (
     <main>
       <header className="site-header">
@@ -48,6 +57,53 @@ export default function Home() {
         </div>
       </section>
 
+      <section
+        className="featured-section"
+        aria-labelledby="featured-title"
+      >
+        <div className="featured-heading" data-reveal>
+          <div>
+            <p className="index">Selected</p>
+            <h2 id="featured-title">Highlights</h2>
+          </div>
+          <p className="section-note">
+            Selected · {String(featuredProjects.length).padStart(2, "0")}
+          </p>
+        </div>
+
+        <div className="featured-grid">
+          {featuredProjects.map((project, index) => (
+            <Link
+              className="featured-card"
+              href={`/projects/${project.slug}`}
+              key={project.slug}
+              data-reveal
+            >
+              <figure>
+                <div className="featured-image" data-parallax>
+                  <img
+                    src={project.cover}
+                    alt={`${project.title} — ${project.category}`}
+                    loading="lazy"
+                  />
+                </div>
+                <figcaption>
+                  <span>
+                    <i aria-hidden="true" />
+                    {project.title}
+                  </span>
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                </figcaption>
+              </figure>
+            </Link>
+          ))}
+        </div>
+
+        <a className="featured-all" href="#work" data-reveal>
+          View all work <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
       <section className="work-section" id="work" aria-labelledby="work-title">
         <div className="work-intro" data-reveal>
           <p className="work-intro__trail">
@@ -72,9 +128,28 @@ export default function Home() {
         <WorkIndex projects={projects} />
       </section>
 
+      <section
+        className="brand-highlights-section"
+        aria-labelledby="brand-highlights-title"
+      >
+        <div className="brand-highlights-heading" data-reveal>
+          <div>
+            <p className="index">02</p>
+            <h2 id="brand-highlights-title">Brand Highlights</h2>
+          </div>
+          <p className="section-note">Selected clients</p>
+        </div>
+
+        <ul className="brand-name-list" data-reveal>
+          {brandHighlights.map((brand) => (
+            <li key={brand}>{brand}</li>
+          ))}
+        </ul>
+      </section>
+
       <section className="about-section" id="about" aria-labelledby="about-title">
         <div className="section-heading section-heading--light" data-reveal>
-          <p className="index">02</p>
+          <p className="index">03</p>
           <h2 id="about-title">About</h2>
           <p className="section-note">Chang Siyeong · Photographer</p>
         </div>

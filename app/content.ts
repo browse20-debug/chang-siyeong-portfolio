@@ -1,6 +1,6 @@
 /*
  * EDIT HERE FIRST
- * Replace the three sample brand names, text, and image URLs in this file.
+ * Replace the five sample brand names, text, and image URLs in this file.
  * Each item in `projects` is one brand. It automatically appears on the
  * home page and gets its own photo viewer page.
  */
@@ -32,6 +32,8 @@ export const services = ["Fashion", "Lookbook", "Commerce", "Advertising"];
 export type Project = {
   slug: string;
   title: string;
+  // true인 브랜드 중 앞의 5개가 메인 배너 바로 아래 HIGHLIGHTS에 표시됩니다.
+  featured?: boolean;
   // category에 적은 문구가 홈 WORK의 분류 탭에도 자동으로 표시됩니다.
   category: string;
   year: string;
@@ -48,6 +50,7 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "brand-01",
     title: "Brand 01",
+    featured: true,
     category: "Fashion Campaign",
     year: "2026",
     size: "wide",
@@ -93,6 +96,7 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "brand-02",
     title: "Brand 02",
+    featured: true,
     category: "Lookbook",
     year: "2026",
     size: "portrait",
@@ -138,6 +142,7 @@ export const projects: Project[] = [
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "brand-03",
     title: "Brand 03",
+    featured: true,
     category: "Commerce & Advertising",
     year: "2025",
     size: "standard",
@@ -179,6 +184,97 @@ export const projects: Project[] = [
       },
     ],
   },
+  {
+    // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
+    slug: "brand-04",
+    title: "Brand 04",
+    featured: true,
+    category: "Fashion Campaign",
+    year: "2025",
+    size: "standard",
+    cover:
+      "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1800&q=88",
+    description:
+      "A fashion story balancing clean silhouettes, material detail, and an understated commercial rhythm.",
+    credits: [
+      { label: "Photography", value: "Chang Siyeong" },
+      { label: "Client", value: "Brand 04" },
+      { label: "Type", value: "Campaign" },
+      { label: "Location", value: "Seoul" },
+    ],
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=2000&q=90",
+        alt: "Curated fashion pieces",
+        orientation: "wide",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1600&q=88",
+        alt: "Street fashion portrait",
+        orientation: "portrait",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1600&q=88",
+        alt: "Graphic fashion portrait",
+        orientation: "portrait",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=2000&q=88",
+        alt: "Editorial fashion styling",
+        orientation: "wide",
+      },
+    ],
+  },
+  {
+    // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
+    slug: "brand-05",
+    title: "Brand 05",
+    featured: true,
+    category: "Lookbook",
+    year: "2025",
+    size: "portrait",
+    cover:
+      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1800&q=88",
+    description:
+      "A restrained lookbook shaped by natural movement, quiet color, and direct portraiture.",
+    credits: [
+      { label: "Photography", value: "Chang Siyeong" },
+      { label: "Client", value: "Brand 05" },
+      { label: "Type", value: "Lookbook" },
+      { label: "Location", value: "Seoul" },
+    ],
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1800&q=90",
+        alt: "Campaign portrait outdoors",
+        orientation: "wide",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1600&q=88",
+        alt: "Outdoor fashion look",
+        orientation: "portrait",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d8b?auto=format&fit=crop&w=1600&q=88",
+        alt: "Close studio portrait",
+        orientation: "portrait",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91d8b?auto=format&fit=crop&w=2000&q=88",
+        alt: "Portrait with warm natural light",
+        orientation: "wide",
+      },
+    ],
+  },
+];
+
+// 이 목록에는 촬영한 브랜드 이름만 적으세요. 줄을 추가하거나 지워도 됩니다.
+export const brandHighlights = [
+  "Brand 01",
+  "Brand 02",
+  "Brand 03",
+  "Brand 04",
+  "Brand 05",
 ];
 
 export function getProject(slug: string) {

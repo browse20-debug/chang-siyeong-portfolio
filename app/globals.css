@@ -2,8 +2,8 @@
 
 :root {
   --ink: #111111;
-  --paper: #f4f2ed;
-  --accent: #d9d3c9;
+  --paper: #ffffff;
+  --accent: #e9e9e9;
   --line: rgba(17, 17, 17, 0.22);
   --pad: clamp(18px, 2.7vw, 42px);
   --serif: "Iowan Old Style", Baskerville, "Times New Roman", serif;
@@ -223,6 +223,136 @@ img {
   color: rgba(255, 255, 255, 0.82);
 }
 
+.featured-section {
+  padding: 82px var(--pad) 118px;
+  background: var(--paper);
+}
+
+.featured-heading,
+.brand-highlights-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.featured-heading > div,
+.brand-highlights-heading > div {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.featured-heading p,
+.featured-heading h2,
+.brand-highlights-heading p,
+.brand-highlights-heading h2 {
+  margin: 0;
+}
+
+.featured-heading h2,
+.brand-highlights-heading h2 {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: 2fr repeat(4, minmax(0, 1fr));
+  gap: clamp(10px, 1.35vw, 22px);
+  padding-top: 30px;
+}
+
+.featured-card {
+  display: block;
+  min-width: 0;
+}
+
+.featured-card:focus-visible {
+  outline: 1px solid var(--ink);
+  outline-offset: 5px;
+}
+
+.featured-card figure {
+  margin: 0;
+}
+
+.featured-image {
+  position: relative;
+  height: clamp(310px, 34vw, 520px);
+  overflow: hidden;
+  background: #f1f1f1;
+}
+
+.featured-image img {
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.94);
+  transform: translate3d(0, var(--parallax-shift, 0), 0) scale(1.025);
+  transition:
+    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+    filter 480ms ease;
+  will-change: transform;
+}
+
+.featured-card figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 10px;
+  font-size: clamp(9px, 0.8vw, 11px);
+  line-height: 1.25;
+}
+
+.featured-card figcaption span {
+  display: flex;
+  min-width: 0;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.featured-card figcaption span:first-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.featured-card figcaption span:last-child {
+  color: rgba(17, 17, 17, 0.42);
+  font-size: 8px;
+  letter-spacing: 0.1em;
+}
+
+.featured-card figcaption i {
+  width: 4px;
+  height: 4px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: currentColor;
+  transition: width 360ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.featured-all {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 12px;
+  margin: 46px 0 0 auto;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--ink);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.featured-all span {
+  transition: transform 260ms ease;
+}
+
 .work-section,
 .about-section {
   padding: 120px var(--pad) 140px;
@@ -431,7 +561,7 @@ img {
 .project-image {
   position: relative;
   overflow: hidden;
-  background: #deddd7;
+  background: #f1f1f1;
 }
 
 .project-card--wide .project-image {
@@ -493,6 +623,22 @@ img {
 }
 
 @media (hover: hover) and (pointer: fine) {
+  .featured-card:hover .featured-image img,
+  .featured-card:focus-visible .featured-image img {
+    filter: saturate(1);
+    transform: translate3d(0, var(--parallax-shift, 0), 0) scale(1.045);
+  }
+
+  .featured-card:hover figcaption i,
+  .featured-card:focus-visible figcaption i {
+    width: 14px;
+  }
+
+  .featured-all:hover span,
+  .featured-all:focus-visible span {
+    transform: translateY(3px);
+  }
+
   .project-card:hover .project-dot,
   .project-card:focus-visible .project-dot {
     width: 16px;
@@ -509,6 +655,39 @@ img {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.brand-highlights-section {
+  padding: 88px var(--pad) 140px;
+  border-top: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.brand-name-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 68px 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+}
+
+.brand-name-list li {
+  padding: 20px 0 22px;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--serif);
+  font-size: clamp(32px, 4.2vw, 66px);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.brand-name-list li:nth-child(odd) {
+  padding-right: clamp(18px, 3vw, 48px);
+}
+
+.brand-name-list li:nth-child(even) {
+  padding-left: clamp(18px, 3vw, 48px);
+  border-left: 1px solid var(--line);
 }
 
 .about-section {
@@ -550,7 +729,7 @@ img {
 
 .about-details .detail-label {
   margin: 0;
-  color: #8f8f8a;
+  color: #8f8f8f;
 }
 
 footer {
@@ -706,7 +885,7 @@ footer {
   margin-top: 12px;
   padding: 15px;
   border-top: 1px solid var(--ink);
-  background: rgba(244, 242, 237, 0.96);
+  background: rgba(255, 255, 255, 0.96);
   box-shadow: 0 14px 42px rgba(17, 17, 17, 0.09);
 }
 
@@ -1110,6 +1289,14 @@ footer {
 }
 
 @media (max-width: 1100px) {
+  .featured-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .featured-card:first-child {
+    grid-column: span 2;
+  }
+
   .project-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1168,6 +1355,53 @@ footer {
   .hero-korean {
     width: auto;
     margin-top: 22px;
+  }
+
+  .featured-section {
+    padding-top: 64px;
+    padding-bottom: 86px;
+  }
+
+  .featured-heading,
+  .brand-highlights-heading {
+    padding: 11px 0;
+  }
+
+  .featured-grid {
+    display: flex;
+    gap: 12px;
+    margin: 0 calc(var(--pad) * -1);
+    padding: 24px var(--pad) 8px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    scroll-padding-left: var(--pad);
+    scroll-snap-type: x mandatory;
+  }
+
+  .featured-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .featured-card,
+  .featured-card:first-child {
+    width: 74vw;
+    flex: 0 0 74vw;
+    scroll-snap-align: start;
+  }
+
+  .featured-image {
+    height: auto;
+    aspect-ratio: 4 / 5;
+  }
+
+  .featured-card figcaption {
+    padding-top: 8px;
+    font-size: 10px;
+  }
+
+  .featured-all {
+    margin-top: 32px;
   }
 
   .work-section,
@@ -1265,6 +1499,25 @@ footer {
 
   .project-view-label {
     display: none;
+  }
+
+  .brand-highlights-section {
+    padding-top: 68px;
+    padding-bottom: 92px;
+  }
+
+  .brand-name-list {
+    display: block;
+    margin-top: 46px;
+  }
+
+  .brand-name-list li,
+  .brand-name-list li:nth-child(odd),
+  .brand-name-list li:nth-child(even) {
+    padding: 15px 0 17px;
+    border-right: 0;
+    border-left: 0;
+    font-size: clamp(34px, 11vw, 54px);
   }
 
   .motion-enhanced [data-reveal] {

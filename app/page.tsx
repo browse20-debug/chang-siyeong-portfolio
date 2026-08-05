@@ -4,7 +4,7 @@ import { homepageFeaturedProjects, profile, services } from "./content";
 
 export default function Home() {
   return (
-    <main>
+    <main style={{ position: "relative" }}>
       <header className="site-header site-header--home">
         <Link className="wordmark" href="/" aria-label="Chang Siyeong home">
           CHANG<br />SIYEONG
@@ -26,7 +26,12 @@ export default function Home() {
         </details>
       </header>
 
-      <section className="hero" aria-labelledby="hero-title">
+      {/* 1. 상단 배너: 스크롤 시 상단 고정 */}
+      <section 
+        className="hero" 
+        aria-labelledby="hero-title"
+        style={{ position: "sticky", top: 0, zIndex: 0 }}
+      >
         <HeroSlideshow
           images={profile.heroImages}
           intervalMs={profile.heroIntervalMs}
@@ -46,9 +51,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 2. Featured Works: 흰색 배경 */}
       <section
         className="home-featured"
         aria-labelledby="home-featured-title"
+        style={{ position: "relative", zIndex: 10, backgroundColor: "#ffffff" }}
       >
         <div className="home-featured__heading" data-reveal>
           <h2 id="home-featured-title">Featured Works</h2>
@@ -123,7 +130,13 @@ export default function Home() {
         </Link>
       </section>
 
-      <section className="about-section" id="about" aria-labelledby="about-title">
+      {/* 3. About 영역: 검은색 배경 */}
+      <section 
+        className="about-section" 
+        id="about" 
+        aria-labelledby="about-title"
+        style={{ position: "relative", zIndex: 10, backgroundColor: "#000000" }}
+      >
         <div className="section-heading section-heading--light" data-reveal>
           <p className="index">02</p>
           <h2 id="about-title">About</h2>
@@ -151,7 +164,12 @@ export default function Home() {
         </div>
       </section>
 
-      <footer id="contact" data-reveal>
+      {/* 4. Contact/Footer 영역: 기존 원본처럼 다시 흰색 배경(#ffffff)으로 지정 */}
+      <footer 
+        id="contact" 
+        data-reveal
+        style={{ position: "relative", zIndex: 10, backgroundColor: "#ffffff" }}
+      >
         <p className="contact-kicker">Have a project in mind?</p>
         <a className="contact-link" href={`mailto:${profile.email}`}>
           Let&apos;s create

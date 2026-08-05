@@ -2,8 +2,8 @@
  * EDIT HERE FIRST
  * Add or replace brand names, text, and image URLs in this file.
  * Each item in `projects` is one brand. It automatically appears on the
- * WORK page and gets its own photo viewer page. Choose the five brands shown
- * on the home page in `homepageFeaturedSlugs` below.
+ * WORK page and gets its own photo viewer page. The home page can show up to
+ * ten brands; use `homepageFeaturedSlugs` below to control their order.
  */
 
 export const profile = {
@@ -23,7 +23,7 @@ export const profile = {
   // 사진이 바뀌는 시간입니다. 3000은 3초입니다.
   heroIntervalMs: 3000,
   statement:
-    "I create composed, tactile images for people and brands. From the first visual conversation to the final frame, I look for the gesture, texture, and light that make a story feel precise and alive.",
+    "Seoul-based photographer Jang Siyeong creates refined fashion, commercial and editorial imagery, balancing clean aesthetics with natural storytelling across campaigns, lookbooks and branded content.",
   approach:
     "Clear direction, considered light, and a calm set.",
 };
@@ -497,22 +497,152 @@ export const projects: Project[] = [
 
     ],
   },
+  {
+    // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
+    slug: "greenbutter",
+    title: "26 S/S Greenbutter",
+    category: "fashion",
+    year: "2026",
+    size: "portrait",
+    cover:"/photos/Greenbutter/26ss4/cover.jpg",
+   // logo: "/logos/Greenbutter-logo.png",
+
+    description:
+      "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
+    credits: [
+      { label: "Photography", value: "Chang Siyeong" },
+      { label: "Client", value: "Greenbutter" },
+      { label: "Type", value: "fashion" },
+      { label: "Set", value: "Studio" },
+    ],
+    gallery: [
+      {
+        src: "/photos/Greenbutter/26ss4/01.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/02.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/03.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/04.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/05.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/06.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/07.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/08.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/09.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/10.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/11.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/12.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/13.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/14.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/15.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/16.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/17.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/Greenbutter/26ss4/18.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },{
+        src: "/photos/Greenbutter/26ss4/19.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },{
+        src: "/photos/Greenbutter/26ss4/20.jpg",
+        alt: "Model in a graphic look",
+        orientation: "portrait",
+      },
+
+      
+    
+
+    ],
+  },
 ];
 
-// 메인 배너 아래 FEATURED WORKS에 보여줄 브랜드 5개입니다.
-// projects에 있는 slug를 원하는 순서대로 5개만 적으면 됩니다.
+// 메인 배너 아래 FEATURED WORKS의 우선 노출 순서입니다.
+// 여기에 없는 새 프로젝트도 등록 순서대로 자동 추가되며, 최대 10개까지 표시됩니다.
 export const homepageFeaturedSlugs = [
   "Zara",
   "Galleria",
   "blue",
   "marithe",
   "cinema",
+  "greenbutter",
 ];
 
-export const homepageFeaturedProjects = homepageFeaturedSlugs
+const orderedHomepageProjects = homepageFeaturedSlugs
   .map((slug) => projects.find((project) => project.slug === slug))
-  .filter((project): project is Project => project !== undefined)
-  .slice(0, 5);
+  .filter((project): project is Project => project !== undefined);
+
+export const homepageFeaturedProjects = [
+  ...orderedHomepageProjects,
+  ...projects.filter(
+    (project) => !homepageFeaturedSlugs.includes(project.slug),
+  ),
+].slice(0, 10);
 
 // 이 목록에는 촬영한 브랜드 이름만 적으세요. 줄을 추가하거나 지워도 됩니다.
 export const brandHighlights = [
@@ -521,6 +651,7 @@ export const brandHighlights = [
   "blue",
   "marithe",
   "#cinema",
+  "Greenbutter",
 ];
 
 export function getProject(slug: string) {

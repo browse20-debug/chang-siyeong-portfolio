@@ -329,7 +329,7 @@ export const projects: Project[] = [
     year: "2026",
     size: "portrait",
     cover:"/photos/marithe/cover.jpg",
-    logo: "/logos/MARITHÉ-logo.png",
+    logo: "/logos/marithe-logo.png",
     description:
       "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
     credits: [

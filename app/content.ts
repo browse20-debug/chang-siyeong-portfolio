@@ -23,7 +23,7 @@ export const profile = {
   // 사진이 바뀌는 시간입니다. 3000은 3초입니다.
   heroIntervalMs: 3000,
   statement:
-    "Seoul-based photographer Jang Siyeong creates refined fashion, commercial and editorial imagery, balancing clean aesthetics with natural storytelling across campaigns, lookbooks and branded content.",
+    "Seoul-based photographer Chang Siyeong creates refined fashion, commercial and editorial imagery, balancing clean aesthetics with natural storytelling across campaigns, lookbooks and branded content.",
   approach:
     "Clear direction, considered light, and a calm set.",
 };

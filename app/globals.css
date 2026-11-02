@@ -1976,3 +1976,5 @@ footer {
   line-height: 1.5;
   color: #666;
 }
+
+.home-page .home-featured { padding-top: 0; }

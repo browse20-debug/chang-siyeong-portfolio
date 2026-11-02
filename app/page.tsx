@@ -52,20 +52,10 @@ export default function Home() {
       {/* 2. Featured Works: 흰색 배경 */}
       <section
         className="home-featured"
-        aria-labelledby="home-featured-title"
+        id="home-featured-title"
+        aria-label="Photographs"
         style={{ position: "relative", zIndex: 10, backgroundColor: "#ffffff" }}
       >
-        <div className="home-featured__heading" data-reveal>
-          <div>
-            <span className="home-section-label">01 / A selection</span>
-            <h2 id="home-featured-title">Selected photographs</h2>
-          </div>
-          <p>
-            Archive / {" "}
-            {String(homepageFeaturedProjects.length).padStart(2, "0")}
-          </p>
-        </div>
-
         <div className="home-featured__grid">
           {homepageFeaturedProjects.map((project) => {
             const logoTheme = (project as Record<string, unknown>).logoTheme;

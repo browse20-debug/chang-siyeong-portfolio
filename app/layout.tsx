@@ -3,7 +3,7 @@ import { MotionController } from "./MotionController";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://changsiyeong.com"),
   title: {
     default: "Chang Siyeong — Photographer",
     template: "%s — Chang Siyeong",

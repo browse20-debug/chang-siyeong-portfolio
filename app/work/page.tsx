@@ -21,7 +21,6 @@ export default function WorkPage() {
 
         <nav className="desktop-nav" aria-label="Work navigation">
           <a href="#work">Work</a>
-          <Link href="/#about">About</Link>
           <Link href="/#contact">Contact</Link>
         </nav>
 
@@ -29,7 +28,6 @@ export default function WorkPage() {
           <summary aria-label="Open navigation">Menu</summary>
           <nav aria-label="Mobile work navigation">
             <a href="#work">Work</a>
-            <Link href="/#about">About</Link>
             <Link href="/#contact">Contact</Link>
           </nav>
         </details>
@@ -90,7 +88,7 @@ export default function WorkPage() {
           <span aria-hidden="true">↗</span>
         </a>
         <div className="footer-meta">
-          <p>© {new Date().getFullYear()} Chang Siyeong</p>
+          <p>© Chang Siyeong</p>
           <a href={`mailto:${profile.email}`}>{profile.email}</a>
           <a href={profile.instagramUrl} target="_blank" rel="noreferrer">
             Instagram

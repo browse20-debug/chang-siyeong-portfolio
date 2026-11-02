@@ -38,7 +38,7 @@ export default async function ProjectPage({
           <summary>Info</summary>
           <div className="project-info-panel__body">
             <p className="project-info-panel__meta">
-              {project.category} · {project.year}
+              {project.category}
             </p>
             <p>{project.description}</p>
             <dl>

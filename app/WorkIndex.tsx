@@ -104,7 +104,6 @@ export function WorkIndex({ projects }: WorkIndexProps) {
 
               <div className="project-meta">
                 <p>{project.category}</p>
-                <p>{project.year}</p>
                 <p>
                   {String(project.gallery.length).padStart(2, "0")} images
                 </p>

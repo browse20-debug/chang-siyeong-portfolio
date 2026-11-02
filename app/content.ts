@@ -216,7 +216,7 @@ export const projects: Project[] = [
     category: "Editorial",
     year: "2026",
     size: "portrait",
-    cover:"/photos/cinema/02/cover.jpg",
+    cover: "/photos/cinema/02/18.jpg",
     description:
       "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
     credits: [
@@ -498,13 +498,210 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "hazzys",
+    title: "HAZZYS",
+    category: "Fashion",
+    year: "",
+    size: "portrait",
+    cover: "/photos/hazzys/DeiqOSGlKQU/01.jpg",
+    logo: "/logos/hazzys-logo.svg",
+    description: "HAZZYS Nova Collection.",
+    credits: [
+      { label: "Photography", value: "Chang Siyeong" },
+      { label: "Client", value: "HAZZYS" },
+    ],
+    gallery: [
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/01.jpg",
+        alt: "HAZZYS — photograph 01",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/02.jpg",
+        alt: "HAZZYS — photograph 02",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/03.jpg",
+        alt: "HAZZYS — photograph 03",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/04.jpg",
+        alt: "HAZZYS — photograph 04",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/05.jpg",
+        alt: "HAZZYS — photograph 05",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/06.jpg",
+        alt: "HAZZYS — photograph 06",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/07.jpg",
+        alt: "HAZZYS — photograph 07",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/08.jpg",
+        alt: "HAZZYS — photograph 08",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/09.jpg",
+        alt: "HAZZYS — photograph 09",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/10.jpg",
+        alt: "HAZZYS — photograph 10",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/11.jpg",
+        alt: "HAZZYS — photograph 11",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/12.jpg",
+        alt: "HAZZYS — photograph 12",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/13.jpg",
+        alt: "HAZZYS — photograph 13",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/14.jpg",
+        alt: "HAZZYS — photograph 14",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/15.jpg",
+        alt: "HAZZYS — photograph 15",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/16.jpg",
+        alt: "HAZZYS — photograph 16",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/hazzys/DeiqOSGlKQU/17.jpg",
+        alt: "HAZZYS — photograph 17",
+        orientation: "portrait",
+      },
+    ],
+  },
+  {
+    slug: "satur",
+    title: "SATUR",
+    category: "Fashion",
+    year: "",
+    size: "wide",
+    cover: "/photos/satur/cover.jpg",
+    logo: "/logos/satur-logo.svg",
+    description: "Photography for SATUR.",
+    credits: [
+      { label: "Photography", value: "Chang Siyeong" },
+      { label: "Client", value: "SATUR" },
+    ],
+    gallery: [
+      {
+        src: "/photos/satur/01.jpg",
+        alt: "SATUR — photograph 01",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/02.jpg",
+        alt: "SATUR — photograph 02",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/03.jpg",
+        alt: "SATUR — photograph 03",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/04.jpg",
+        alt: "SATUR — photograph 04",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/05.jpg",
+        alt: "SATUR — photograph 05",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/06.jpg",
+        alt: "SATUR — photograph 06",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/07.jpg",
+        alt: "SATUR — photograph 07",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/08.jpg",
+        alt: "SATUR — photograph 08",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/09.jpg",
+        alt: "SATUR — photograph 09",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/10.jpg",
+        alt: "SATUR — photograph 10",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/11.jpg",
+        alt: "SATUR — photograph 11",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/12.jpg",
+        alt: "SATUR — photograph 12",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/13.jpg",
+        alt: "SATUR — photograph 13",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/14.jpg",
+        alt: "SATUR — photograph 14",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/15.jpg",
+        alt: "SATUR — photograph 15",
+        orientation: "wide",
+      },
+      {
+        src: "/photos/satur/16.jpg",
+        alt: "SATUR — photograph 16",
+        orientation: "wide",
+      },
+    ],
+  },
+  {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "greenbutter",
-    title: "26 S/S Greenbutter",
+    title: "Greenbutter",
     category: "Fashion",
     year: "2026",
     size: "portrait",
-    cover:"/photos/greenbutter/26ss4/cover.jpg",
+    cover: "/photos/greenbutter/DeMO5RGlIuT/01.jpg",
    // logo: "/logos/Greenbutter-logo.png",
 
     description:
@@ -516,6 +713,108 @@ export const projects: Project[] = [
       { label: "Set", value: "Studio" },
     ],
     gallery: [
+      // New shoots go first; preserve earlier shoots below in their original order.
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/01.jpg",
+        alt: "Greenbutter — photograph 01",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/02.jpg",
+        alt: "Greenbutter — photograph 02",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/03.jpg",
+        alt: "Greenbutter — photograph 03",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/04.jpg",
+        alt: "Greenbutter — photograph 04",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/05.jpg",
+        alt: "Greenbutter — photograph 05",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/06.jpg",
+        alt: "Greenbutter — photograph 06",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/07.jpg",
+        alt: "Greenbutter — photograph 07",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/08.jpg",
+        alt: "Greenbutter — photograph 08",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/09.jpg",
+        alt: "Greenbutter — photograph 09",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/10.jpg",
+        alt: "Greenbutter — photograph 10",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/11.jpg",
+        alt: "Greenbutter — photograph 11",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/12.jpg",
+        alt: "Greenbutter — photograph 12",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/13.jpg",
+        alt: "Greenbutter — photograph 13",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/14.jpg",
+        alt: "Greenbutter — photograph 14",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/15.jpg",
+        alt: "Greenbutter — photograph 15",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/16.jpg",
+        alt: "Greenbutter — photograph 16",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/17.jpg",
+        alt: "Greenbutter — photograph 17",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/18.jpg",
+        alt: "Greenbutter — photograph 18",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/19.jpg",
+        alt: "Greenbutter — photograph 19",
+        orientation: "portrait",
+      },
+      {
+        src: "/photos/greenbutter/DeMO5RGlIuT/20.jpg",
+        alt: "Greenbutter — photograph 20",
+        orientation: "portrait",
+      },
+      // Earlier shoot — retained.
       {
         src: "/photos/greenbutter/26ss4/01.jpg",
         alt: "Model in a graphic look",
@@ -623,7 +922,7 @@ export const projects: Project[] = [
    {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "LA_eql",
-    title: "26 FW LA_eql",
+    title: "LA_eql",
     category: "Fashion",
     year: "2026",
     size: "portrait",
@@ -729,7 +1028,7 @@ export const projects: Project[] = [
     {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "Loeil_studio",
-    title: "26 SS Loeil_studio Denim",
+    title: "Loeil_studio Denim",
     category: "Fashion",
     year: "2026",
     size: "portrait",
@@ -816,7 +1115,7 @@ export const projects: Project[] = [
    {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "Arha",
-    title: "26 Arha",
+    title: "Arha",
     category: "Fashion",
     year: "2026",
     size: "portrait",
@@ -903,12 +1202,14 @@ export const projects: Project[] = [
 ];
 
 // 메인 배너 아래 FEATURED WORKS의 우선 노출 순서입니다.
-// 여기에 없는 새 프로젝트도 등록 순서대로 자동 추가되며, 최대 10개까지 표시됩니다.
+// 여기에 없는 새 프로젝트도 등록 순서대로 자동 추가되며, 모든 프로젝트를 표시합니다.
 export const homepageFeaturedSlugs = [
   "Zara",
   "Galleria",
+  "hazzys",
   "blue",
   "marithe",
+  "satur",
   "cinema",
   "greenbutter",
   "LA_eql",
@@ -925,14 +1226,16 @@ export const homepageFeaturedProjects = [
   ...projects.filter(
     (project) => !homepageFeaturedSlugs.includes(project.slug),
   ),
-].slice(0, 10);
+];
 
 // 이 목록에는 촬영한 브랜드 이름만 적으세요. 줄을 추가하거나 지워도 됩니다.
 export const brandHighlights = [
   "Zara",
   "Galleria",
+  "HAZZYS",
   "blue",
   "MARITHÉ",
+  "SATUR",
   "Greenbutter",
   "LA_eql",
   "Loeil_studio",

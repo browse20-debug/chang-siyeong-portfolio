@@ -392,9 +392,9 @@ img {
   opacity: 1;
 }
 
-@media (hover: none) {
+@media (hover: none), (max-width: 767px) {
   .home-featured-card figcaption {
-    opacity: 1;
+    display: none;
   }
 }
 

@@ -826,6 +826,158 @@ export const projects: Project[] = [
     }
   ]
 },
+{
+  "slug": "nuakle",
+  "title": "NUAKLE",
+  "category": "Fashion",
+  "year": "2023–2025",
+  "size": "portrait",
+  "cover": "/photos/nuakle/01.jpg",
+  "description": "Fashion photography for NUAKLE.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "NUAKLE"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/DFsFLndp8dN/",
+    "https://www.instagram.com/p/CxUlDluJMCP/",
+    "https://www.instagram.com/p/CxUbWvlp2s0/",
+    "https://www.instagram.com/p/CxW5Y0tpQoJ/"
+  ],
+  "gallery": [
+    {
+      "src": "/photos/nuakle/01.jpg",
+      "alt": "NUAKLE — blue knit hat portrait",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/02.jpg",
+      "alt": "NUAKLE — photograph 02",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/nuakle/03.jpg",
+      "alt": "NUAKLE — photograph 03",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/nuakle/04.jpg",
+      "alt": "NUAKLE — photograph 04",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/nuakle/05.jpg",
+      "alt": "NUAKLE — photograph 05",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/nuakle/06.jpg",
+      "alt": "NUAKLE — photograph 06",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/nuakle/07.jpg",
+      "alt": "NUAKLE — photograph 07",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/nuakle/08.jpg",
+      "alt": "NUAKLE — photograph 08",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/nuakle/09.jpg",
+      "alt": "NUAKLE — photograph 09",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/nuakle/10.jpg",
+      "alt": "NUAKLE — photograph 10",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/nuakle/11.jpg",
+      "alt": "NUAKLE — photograph 11",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/nuakle/12.jpg",
+      "alt": "NUAKLE — photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/13.jpg",
+      "alt": "NUAKLE — photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/14.jpg",
+      "alt": "NUAKLE — photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/15.jpg",
+      "alt": "NUAKLE — photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/16.jpg",
+      "alt": "NUAKLE — photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/17.jpg",
+      "alt": "NUAKLE — photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/18.jpg",
+      "alt": "NUAKLE — photograph 18",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/19.jpg",
+      "alt": "NUAKLE — photograph 19",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/20.jpg",
+      "alt": "NUAKLE — photograph 20",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/21.jpg",
+      "alt": "NUAKLE — photograph 21",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/22.jpg",
+      "alt": "NUAKLE — photograph 22",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/23.jpg",
+      "alt": "NUAKLE — photograph 23",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/24.jpg",
+      "alt": "NUAKLE — photograph 24",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/nuakle/25.jpg",
+      "alt": "NUAKLE — photograph 25",
+      "orientation": "portrait"
+    }
+  ]
+},
   {
     slug: "satur",
     title: "SATUR",
@@ -1919,6 +2071,7 @@ export const homepageFeaturedSlugs = [
   "Galleria",
   "hazzys",
   "the-nockin",
+  "nuakle",
   "blue",
   "sieor",
   "marithe",
@@ -1951,6 +2104,7 @@ export const brandHighlights = [
   "Galleria",
   "HAZZYS",
   "The Nockin",
+  "NUAKLE",
   "blue",
   "SIEOR",
   "MARITHÉ",

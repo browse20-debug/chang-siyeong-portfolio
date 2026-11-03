@@ -2243,6 +2243,142 @@ export const projects: Project[] = [
 
     ],
   },
+{
+  "slug": "ouro",
+  "title": "OURO",
+  "category": "Fashion",
+  "year": "2025–2026",
+  "size": "portrait",
+  "cover": "/photos/ouro/21.jpg",
+  "logo": "/logos/ouro-logo.svg",
+  "description": "Fashion photography for OURO.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "OURO"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/DYBQ8fVCaVV/",
+    "https://www.instagram.com/p/DFsG7ygpauf/"
+  ],
+  "gallery": [
+    {
+      "src": "/photos/ouro/01.jpg",
+      "alt": "OURO — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/02.jpg",
+      "alt": "OURO — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/03.jpg",
+      "alt": "OURO — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/04.jpg",
+      "alt": "OURO — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/05.jpg",
+      "alt": "OURO — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/06.jpg",
+      "alt": "OURO — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/07.jpg",
+      "alt": "OURO — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/08.jpg",
+      "alt": "OURO — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/09.jpg",
+      "alt": "OURO — photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/10.jpg",
+      "alt": "OURO — photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/11.jpg",
+      "alt": "OURO — photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/12.jpg",
+      "alt": "OURO — photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/13.jpg",
+      "alt": "OURO — photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/14.jpg",
+      "alt": "OURO — photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/15.jpg",
+      "alt": "OURO — photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/16.jpg",
+      "alt": "OURO — photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/17.jpg",
+      "alt": "OURO — photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/18.jpg",
+      "alt": "OURO — photograph 18",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/19.jpg",
+      "alt": "OURO — photograph 19",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/20.jpg",
+      "alt": "OURO — photograph 20",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/21.jpg",
+      "alt": "OURO — photograph 21",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/22.jpg",
+      "alt": "OURO — photograph 22",
+      "orientation": "portrait"
+    }
+  ]
+},
 ];
 
 // 메인 배너 아래 FEATURED WORKS의 우선 노출 순서입니다.
@@ -2268,6 +2404,7 @@ export const homepageFeaturedSlugs = [
   "LA_eql",
   "Loeil_studio",
   "Arha",
+  "ouro",
 ];
 
 const orderedHomepageProjects = homepageFeaturedSlugs
@@ -2301,6 +2438,7 @@ export const brandHighlights = [
   "ABBR",
   "LA_eql",
   "Loeil_studio",
+  "OURO",
 ];
 
 export function getProject(slug: string) {

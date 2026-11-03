@@ -1081,7 +1081,7 @@ export const projects: Project[] = [
   "category": "Fashion",
   "year": "2026",
   "size": "portrait",
-  "cover": "/photos/neev/01.jpg",
+  "cover": "/photos/neev/cover.jpg",
   "logo": "/logos/neev-logo.png",
   "description": "Fashion campaign photography for NEEV.",
   "credits": [

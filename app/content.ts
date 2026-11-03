@@ -1825,6 +1825,7 @@ export const projects: Project[] = [
    {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "Arha",
+    logo: "/logos/arha-logo.png",
     title: "Arha",
     category: "Fashion",
     year: "2026",

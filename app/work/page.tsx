@@ -21,6 +21,7 @@ export default function WorkPage() {
 
         <nav className="desktop-nav" aria-label="Work navigation">
           <a href="#work">Work</a>
+          <Link href="/journal">Journal</Link>
           <Link href="/#contact">Contact</Link>
         </nav>
 
@@ -28,6 +29,7 @@ export default function WorkPage() {
           <summary aria-label="Open navigation">Menu</summary>
           <nav aria-label="Mobile work navigation">
             <a href="#work">Work</a>
+          <Link href="/journal">Journal</Link>
             <Link href="/#contact">Contact</Link>
           </nav>
         </details>

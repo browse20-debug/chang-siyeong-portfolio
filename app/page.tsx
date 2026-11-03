@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { JournalBanner } from "./JournalBanner";
 import { HeroSlideshow } from "./HeroSlideshow";
 import { homepageFeaturedProjects, profile } from "./content";
 
@@ -12,6 +13,7 @@ export default function Home() {
 
         <nav className="desktop-nav" aria-label="Primary navigation">
           <Link href="/work">Work</Link>
+          <Link href="/journal">Journal</Link>
           <a href="#contact">Contact</a>
         </nav>
 
@@ -19,6 +21,7 @@ export default function Home() {
           <summary aria-label="Open navigation">Menu</summary>
           <nav aria-label="Mobile navigation">
             <Link href="/work">Work</Link>
+          <Link href="/journal">Journal</Link>
               <a href="#contact">Contact</a>
           </nav>
         </details>
@@ -115,6 +118,8 @@ export default function Home() {
           <i aria-hidden="true">↗</i>
         </Link>
       </section>
+
+      <JournalBanner />
 
       {/* 4. Contact/Footer 영역: 기존 원본처럼 다시 흰색 배경(#ffffff)으로 지정 */}
       <footer 

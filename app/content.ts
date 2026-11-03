@@ -1192,6 +1192,76 @@ export const projects: Project[] = [
     }
   ]
 },
+{
+  "slug": "satur-eyewear",
+  "logo": "/logos/satur-eyewear-logo.svg",
+  "title": "SATUR Eyewear",
+  "category": "Fashion",
+  "year": "2026",
+  "size": "portrait",
+  "cover": "/photos/satur-eyewear/01.jpg",
+  "description": "Eyewear photography for SATUR.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "SATUR Eyewear"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/DeImAx8H4pD/"
+  ],
+  "gallery": [
+    {
+      "src": "/photos/satur-eyewear/01.jpg",
+      "alt": "SATUR Eyewear — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-eyewear/02.jpg",
+      "alt": "SATUR Eyewear — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-eyewear/03.jpg",
+      "alt": "SATUR Eyewear — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-eyewear/04.jpg",
+      "alt": "SATUR Eyewear — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-eyewear/05.jpg",
+      "alt": "SATUR Eyewear — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-eyewear/06.jpg",
+      "alt": "SATUR Eyewear — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-eyewear/07.jpg",
+      "alt": "SATUR Eyewear — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-eyewear/08.jpg",
+      "alt": "SATUR Eyewear — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-eyewear/09.jpg",
+      "alt": "SATUR Eyewear — photograph 09",
+      "orientation": "portrait"
+    }
+  ]
+},
   {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "greenbutter",
@@ -1714,6 +1784,7 @@ export const homepageFeaturedSlugs = [
   "cinema",
   "greenbutter",
   "vanone",
+  "satur-eyewear",
   "LA_eql",
   "Loeil_studio",
   "Arha",
@@ -1743,6 +1814,7 @@ export const brandHighlights = [
   "MAISON SEOLE",
   "Greenbutter",
   "VANONE",
+  "SATUR Eyewear",
   "LA_eql",
   "Loeil_studio",
 ];

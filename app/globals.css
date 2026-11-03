@@ -1831,6 +1831,7 @@ footer {
 
 /* Match SATUR's unpadded wordmark to the visible size of the other logos. */
 .project-card__logo[src="/logos/satur-logo.svg"],
+.project-card__logo[src="/logos/satur-eyewear-logo.svg"],
 .project-card__logo[src="/logos/hazzys-logo.svg"] {
   width: 30% !important;
   max-width: 140px !important;

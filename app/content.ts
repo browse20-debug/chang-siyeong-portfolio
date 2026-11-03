@@ -1274,7 +1274,7 @@ export const projects: Project[] = [
   "category": "Beauty",
   "year": "2025",
   "size": "portrait",
-  "cover": "/photos/abbr/11.jpg",
+  "cover": "/photos/abbr/01.jpg",
   "description": "Fragrance campaign photography for ABBR.",
   "credits": [
     {

@@ -1998,3 +1998,9 @@ footer {
   transform: none;
   object-position: center;
 }
+
+/* SIEOR homepage cover: match the supplied close portrait reference. */
+.home-featured-card[href="/projects/sieor"] .home-featured-card__image > img:not(.project-card__logo) {
+  transform-origin: top center;
+  transform: translateY(-5%) scale(1.60);
+}

@@ -2005,3 +2005,11 @@ footer {
   transform-origin: top center;
   transform: translateY(-5%) scale(1.60);
 }
+
+/* Keep the supplied VANONE ATELIER logo readable despite its outer padding. */
+.home-featured-card .project-card__logo[src="/logos/vanone-atelier-logo.png"] {
+  width: 52% !important;
+  max-height: none !important;
+  bottom: -8% !important;
+  right: -7% !important;
+}

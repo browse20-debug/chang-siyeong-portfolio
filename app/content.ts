@@ -1070,6 +1070,7 @@ export const projects: Project[] = [
 },
 {
   "slug": "vanone",
+  "logo": "/logos/vanone-atelier-logo.png",
   "title": "VANONE",
   "category": "Fashion",
   "year": "2026",

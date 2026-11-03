@@ -2263,10 +2263,20 @@ export const projects: Project[] = [
     }
   ],
   "instagramPosts": [
-    "https://www.instagram.com/p/DYBQ8fVCaVV/",
-    "https://www.instagram.com/p/DFsG7ygpauf/"
+    "https://www.instagram.com/p/DFsG7ygpauf/",
+    "https://www.instagram.com/p/DYBQ8fVCaVV/"
   ],
   "gallery": [
+    {
+      "src": "/photos/ouro/21.jpg",
+      "alt": "OURO — photograph 21",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/ouro/22.jpg",
+      "alt": "OURO — photograph 22",
+      "orientation": "portrait"
+    },
     {
       "src": "/photos/ouro/01.jpg",
       "alt": "OURO — photograph 01",
@@ -2365,16 +2375,6 @@ export const projects: Project[] = [
     {
       "src": "/photos/ouro/20.jpg",
       "alt": "OURO — photograph 20",
-      "orientation": "portrait"
-    },
-    {
-      "src": "/photos/ouro/21.jpg",
-      "alt": "OURO — photograph 21",
-      "orientation": "portrait"
-    },
-    {
-      "src": "/photos/ouro/22.jpg",
-      "alt": "OURO — photograph 22",
       "orientation": "portrait"
     }
   ]

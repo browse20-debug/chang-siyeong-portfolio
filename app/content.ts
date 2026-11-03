@@ -1783,6 +1783,7 @@ export const projects: Project[] = [
   },
  {
   "slug": "rachel-cox",
+  "logo": "/logos/rachel-cox-logo.png",
   "title": "RACHEL COX",
   "category": "Fashion",
   "year": "2026",

@@ -49,6 +49,13 @@ export default async function ProjectPage({
                 </div>
               ))}
             </dl>
+            {project.instagramPosts?.map((url, index) => (
+              <p key={url}>
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  Instagram · {index + 1} ↗
+                </a>
+              </p>
+            ))}
           </div>
         </details>
 

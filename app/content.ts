@@ -39,6 +39,7 @@ export type Project = {
   size: "wide" | "portrait" | "standard";
   cover: string;
   logo?: string;
+  instagramPosts?: string[];
   description: string;
   credits: { label: string; value: string }[];
   // 사진을 추가하면 이 브랜드 상세 뷰어의 슬라이드가 자동으로 늘어납니다.
@@ -694,6 +695,156 @@ export const projects: Project[] = [
       },
     ],
   },
+{
+  "slug": "maison-seole",
+  "title": "MAISON SEOLE",
+  "category": "Fashion",
+  "year": "2026",
+  "size": "portrait",
+  "cover": "/photos/maison-seole/01.jpg",
+  "description": "Photography for MAISON SEOLE.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "MAISON SEOLE"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/DdxukKQlJEc/",
+    "https://www.instagram.com/p/DdxsjMrlBdz/"
+  ],
+  "gallery": [
+    {
+      "src": "/photos/maison-seole/01.jpg",
+      "alt": "MAISON SEOLE — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/02.jpg",
+      "alt": "MAISON SEOLE — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/03.jpg",
+      "alt": "MAISON SEOLE — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/04.jpg",
+      "alt": "MAISON SEOLE — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/05.jpg",
+      "alt": "MAISON SEOLE — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/06.jpg",
+      "alt": "MAISON SEOLE — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/07.jpg",
+      "alt": "MAISON SEOLE — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/08.jpg",
+      "alt": "MAISON SEOLE — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/09.jpg",
+      "alt": "MAISON SEOLE — photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/10.jpg",
+      "alt": "MAISON SEOLE — photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/11.jpg",
+      "alt": "MAISON SEOLE — photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/12.jpg",
+      "alt": "MAISON SEOLE — photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/13.jpg",
+      "alt": "MAISON SEOLE — photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/14.jpg",
+      "alt": "MAISON SEOLE — photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/15.jpg",
+      "alt": "MAISON SEOLE — photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/16.jpg",
+      "alt": "MAISON SEOLE — photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/17.jpg",
+      "alt": "MAISON SEOLE — photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/18.jpg",
+      "alt": "MAISON SEOLE — photograph 18",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/19.jpg",
+      "alt": "MAISON SEOLE — photograph 19",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/20.jpg",
+      "alt": "MAISON SEOLE — photograph 20",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/21.jpg",
+      "alt": "MAISON SEOLE — photograph 21",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/22.jpg",
+      "alt": "MAISON SEOLE — photograph 22",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/23.jpg",
+      "alt": "MAISON SEOLE — photograph 23",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/24.jpg",
+      "alt": "MAISON SEOLE — photograph 24",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/maison-seole/25.jpg",
+      "alt": "MAISON SEOLE — photograph 25",
+      "orientation": "portrait"
+    }
+  ]
+},
   {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "greenbutter",
@@ -1210,6 +1361,7 @@ export const homepageFeaturedSlugs = [
   "blue",
   "marithe",
   "satur",
+  "maison-seole",
   "cinema",
   "greenbutter",
   "LA_eql",

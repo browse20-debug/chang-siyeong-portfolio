@@ -1076,6 +1076,81 @@ export const projects: Project[] = [
     ],
   },
 {
+  "slug": "neev",
+  "title": "NEEV",
+  "category": "Fashion",
+  "year": "2026",
+  "size": "portrait",
+  "cover": "/photos/neev/01.jpg",
+  "logo": "/logos/neev-logo.png",
+  "description": "Fashion campaign photography for NEEV.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "NEEV"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/DZZaBfhFBam/"
+  ],
+  "gallery": [
+    {
+      "src": "/photos/neev/01.jpg",
+      "alt": "NEEV — photograph 01",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/neev/02.jpg",
+      "alt": "NEEV — photograph 02",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/neev/03.jpg",
+      "alt": "NEEV — photograph 03",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/neev/04.jpg",
+      "alt": "NEEV — photograph 04",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/neev/05.jpg",
+      "alt": "NEEV — photograph 05",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/neev/06.jpg",
+      "alt": "NEEV — photograph 06",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/neev/07.jpg",
+      "alt": "NEEV — photograph 07",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/neev/08.jpg",
+      "alt": "NEEV — photograph 08",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/neev/09.jpg",
+      "alt": "NEEV — photograph 09",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/neev/10.jpg",
+      "alt": "NEEV — photograph 10",
+      "orientation": "wide"
+    }
+  ]
+},
+{
   "slug": "maison-seole",
   "logo": "/logos/maison-seole-logo.png",
   "title": "MAISON SEOLE",
@@ -2182,6 +2257,7 @@ export const homepageFeaturedSlugs = [
   "sieor",
   "marithe",
   "satur",
+  "neev",
   "maison-seole",
   "cinema",
   "greenbutter",
@@ -2216,6 +2292,7 @@ export const brandHighlights = [
   "SIEOR",
   "MARITHÉ",
   "SATUR",
+  "NEEV",
   "MAISON SEOLE",
   "Greenbutter",
   "RACHEL COX",

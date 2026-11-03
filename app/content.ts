@@ -1268,6 +1268,141 @@ export const projects: Project[] = [
     }
   ]
 },
+{
+  "slug": "abbr",
+  "title": "ABBR",
+  "category": "Beauty",
+  "year": "2025",
+  "size": "portrait",
+  "cover": "/photos/abbr/11.jpg",
+  "description": "Fragrance campaign photography for ABBR.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "ABBR"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/DPG-Xv2CQdO/",
+    "https://www.instagram.com/p/DPEJyLgDV5j/"
+  ],
+  "gallery": [
+    {
+      "src": "/photos/abbr/11.jpg",
+      "alt": "ABBR — model reclining on a white bed",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/12.jpg",
+      "alt": "ABBR — campaign photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/13.jpg",
+      "alt": "ABBR — campaign photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/14.jpg",
+      "alt": "ABBR — campaign photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/15.jpg",
+      "alt": "ABBR — campaign photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/16.jpg",
+      "alt": "ABBR — campaign photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/17.jpg",
+      "alt": "ABBR — campaign photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/18.jpg",
+      "alt": "ABBR — campaign photograph 18",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/19.jpg",
+      "alt": "ABBR — campaign photograph 19",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/20.jpg",
+      "alt": "ABBR — campaign photograph 20",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/21.jpg",
+      "alt": "ABBR — campaign photograph 21",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/22.jpg",
+      "alt": "ABBR — campaign photograph 22",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/abbr/01.jpg",
+      "alt": "ABBR — campaign photograph 01",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/abbr/02.jpg",
+      "alt": "ABBR — campaign photograph 02",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/abbr/03.jpg",
+      "alt": "ABBR — campaign photograph 03",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/abbr/04.jpg",
+      "alt": "ABBR — campaign photograph 04",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/abbr/05.jpg",
+      "alt": "ABBR — campaign photograph 05",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/abbr/06.jpg",
+      "alt": "ABBR — campaign photograph 06",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/abbr/07.jpg",
+      "alt": "ABBR — campaign photograph 07",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/abbr/08.jpg",
+      "alt": "ABBR — campaign photograph 08",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/abbr/09.jpg",
+      "alt": "ABBR — campaign photograph 09",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/abbr/10.jpg",
+      "alt": "ABBR — campaign photograph 10",
+      "orientation": "wide"
+    }
+  ]
+},
   {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "greenbutter",
@@ -1792,6 +1927,7 @@ export const homepageFeaturedSlugs = [
   "greenbutter",
   "vanone",
   "satur-eyewear",
+  "abbr",
   "LA_eql",
   "Loeil_studio",
   "Arha",
@@ -1822,6 +1958,7 @@ export const brandHighlights = [
   "Greenbutter",
   "VANONE",
   "SATUR Eyewear",
+  "ABBR",
   "LA_eql",
   "Loeil_studio",
 ];

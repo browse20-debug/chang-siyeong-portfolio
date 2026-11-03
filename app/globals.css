@@ -1979,14 +1979,15 @@ footer {
 
 .home-page .home-featured { padding-top: 0; }
 
-/* Slightly tighter crop for the MAISON SEOLE homepage cover. */
+/* Keep the top crop fixed while trimming more from the bottom. */
 .home-featured-card[href="/projects/maison-seole"] .home-featured-card__image > img:not(.project-card__logo) {
-  transform: translate3d(0, var(--parallax-shift, 0), 0) scale(1.12);
+  transform-origin: top center;
+  transform: translate3d(0, calc(var(--parallax-shift, 0px) - 6%), 0) scale(1.20);
 }
 
 @media (hover: hover) and (pointer: fine) {
   .home-featured-card[href="/projects/maison-seole"]:hover .home-featured-card__image > img:not(.project-card__logo),
   .home-featured-card[href="/projects/maison-seole"]:focus-visible .home-featured-card__image > img:not(.project-card__logo) {
-    transform: translate3d(0, var(--parallax-shift, 0), 0) scale(1.14);
+    transform: translate3d(0, calc(var(--parallax-shift, 0px) - 6%), 0) scale(1.22);
   }
 }

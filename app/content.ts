@@ -39,6 +39,7 @@ export type Project = {
   size: "wide" | "portrait" | "standard";
   cover: string;
   logo?: string;
+  logoTheme?: "dark" | "light";
   instagramPosts?: string[];
   description: string;
   credits: { label: string; value: string }[];
@@ -212,6 +213,7 @@ export const projects: Project[] = [
   },
 {
   "slug": "sieor",
+  "logo": "/logos/sieor-logo.svg",
   "title": "SIEOR",
   "category": "Fashion",
   "year": "2026",
@@ -715,6 +717,8 @@ export const projects: Project[] = [
   },
 {
   "slug": "the-nockin",
+  "logo": "/logos/the-nockin-logo.png",
+  "logoTheme": "dark",
   "title": "The Nockin",
   "category": "Fashion",
   "year": "2026",
@@ -920,6 +924,7 @@ export const projects: Project[] = [
   },
 {
   "slug": "maison-seole",
+  "logo": "/logos/maison-seole-logo.png",
   "title": "MAISON SEOLE",
   "category": "Fashion",
   "year": "2026",
@@ -1597,6 +1602,7 @@ export const projects: Project[] = [
     {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "Loeil_studio",
+    logo: "/logos/loeil-logo.png",
     title: "Loeil_studio Denim",
     category: "Fashion",
     year: "2026",

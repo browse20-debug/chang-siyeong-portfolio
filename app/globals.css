@@ -1832,7 +1832,11 @@ footer {
 /* Match SATUR's unpadded wordmark to the visible size of the other logos. */
 .project-card__logo[src="/logos/satur-logo.svg"],
 .project-card__logo[src="/logos/satur-eyewear-logo.svg"],
-.project-card__logo[src="/logos/hazzys-logo.svg"] {
+.project-card__logo[src="/logos/hazzys-logo.svg"],
+.project-card__logo[src="/logos/maison-seole-logo.png"],
+.project-card__logo[src="/logos/the-nockin-logo.png"],
+.project-card__logo[src="/logos/sieor-logo.svg"],
+.project-card__logo[src="/logos/loeil-logo.png"] {
   width: 30% !important;
   max-width: 140px !important;
   max-height: 40px !important;

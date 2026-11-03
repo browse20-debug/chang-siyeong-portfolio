@@ -1991,3 +1991,10 @@ footer {
     transform: translate3d(0, calc(var(--parallax-shift, 0px) - 6%), 0) scale(1.22);
   }
 }
+
+/* Match the SIEOR Instagram feed cover without the default card zoom. */
+.home-featured-card[href="/projects/sieor"] .home-featured-card__image > img:not(.project-card__logo),
+.project-card[href="/projects/sieor"] .project-image > img:not(.project-card__logo) {
+  transform: none;
+  object-position: center;
+}

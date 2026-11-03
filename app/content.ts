@@ -599,6 +599,120 @@ export const projects: Project[] = [
       },
     ],
   },
+{
+  "slug": "sieor",
+  "title": "SIEOR",
+  "category": "Fashion",
+  "year": "2026",
+  "size": "portrait",
+  "cover": "/photos/sieor/01.jpg",
+  "description": "Photography for SIEOR.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "SIEOR"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/Dedd47GFGep/"
+  ],
+  "gallery": [
+    {
+      "src": "/photos/sieor/01.jpg",
+      "alt": "SIEOR — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/02.jpg",
+      "alt": "SIEOR — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/03.jpg",
+      "alt": "SIEOR — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/04.jpg",
+      "alt": "SIEOR — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/05.jpg",
+      "alt": "SIEOR — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/06.jpg",
+      "alt": "SIEOR — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/07.jpg",
+      "alt": "SIEOR — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/08.jpg",
+      "alt": "SIEOR — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/09.jpg",
+      "alt": "SIEOR — photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/10.jpg",
+      "alt": "SIEOR — photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/11.jpg",
+      "alt": "SIEOR — photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/12.jpg",
+      "alt": "SIEOR — photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/13.jpg",
+      "alt": "SIEOR — photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/14.jpg",
+      "alt": "SIEOR — photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/15.jpg",
+      "alt": "SIEOR — photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/16.jpg",
+      "alt": "SIEOR — photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/17.jpg",
+      "alt": "SIEOR — photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/sieor/18.jpg",
+      "alt": "SIEOR — photograph 18",
+      "orientation": "portrait"
+    }
+  ]
+},
   {
     slug: "satur",
     title: "SATUR",
@@ -1358,6 +1472,7 @@ export const homepageFeaturedSlugs = [
   "Zara",
   "Galleria",
   "hazzys",
+  "sieor",
   "blue",
   "marithe",
   "satur",

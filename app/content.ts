@@ -713,6 +713,115 @@ export const projects: Project[] = [
       },
     ],
   },
+{
+  "slug": "the-nockin",
+  "title": "The Nockin",
+  "category": "Fashion",
+  "year": "2026",
+  "size": "portrait",
+  "cover": "/photos/the-nockin/01.jpg",
+  "description": "Photography for The Nockin.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "The Nockin"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/Dcu6X5_lDBo/"
+  ],
+  "gallery": [
+    {
+      "src": "/photos/the-nockin/01.jpg",
+      "alt": "The Nockin — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/02.jpg",
+      "alt": "The Nockin — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/03.jpg",
+      "alt": "The Nockin — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/04.jpg",
+      "alt": "The Nockin — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/05.jpg",
+      "alt": "The Nockin — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/06.jpg",
+      "alt": "The Nockin — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/07.jpg",
+      "alt": "The Nockin — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/08.jpg",
+      "alt": "The Nockin — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/09.jpg",
+      "alt": "The Nockin — photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/10.jpg",
+      "alt": "The Nockin — photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/11.jpg",
+      "alt": "The Nockin — photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/12.jpg",
+      "alt": "The Nockin — photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/13.jpg",
+      "alt": "The Nockin — photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/14.jpg",
+      "alt": "The Nockin — photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/15.jpg",
+      "alt": "The Nockin — photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/16.jpg",
+      "alt": "The Nockin — photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/the-nockin/17.jpg",
+      "alt": "The Nockin — photograph 17",
+      "orientation": "portrait"
+    }
+  ]
+},
   {
     slug: "satur",
     title: "SATUR",
@@ -955,6 +1064,130 @@ export const projects: Project[] = [
     {
       "src": "/photos/maison-seole/25.jpg",
       "alt": "MAISON SEOLE — photograph 25",
+      "orientation": "portrait"
+    }
+  ]
+},
+{
+  "slug": "vanone",
+  "title": "VANONE",
+  "category": "Fashion",
+  "year": "2026",
+  "size": "portrait",
+  "cover": "/photos/vanone/01.jpg",
+  "description": "Photography for VANONE.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "VANONE"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/DdCzaRuEj78/"
+  ],
+  "gallery": [
+    {
+      "src": "/photos/vanone/01.jpg",
+      "alt": "VANONE — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/02.jpg",
+      "alt": "VANONE — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/03.jpg",
+      "alt": "VANONE — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/04.jpg",
+      "alt": "VANONE — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/05.jpg",
+      "alt": "VANONE — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/06.jpg",
+      "alt": "VANONE — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/07.jpg",
+      "alt": "VANONE — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/08.jpg",
+      "alt": "VANONE — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/09.jpg",
+      "alt": "VANONE — photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/10.jpg",
+      "alt": "VANONE — photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/11.jpg",
+      "alt": "VANONE — photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/12.jpg",
+      "alt": "VANONE — photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/13.jpg",
+      "alt": "VANONE — photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/14.jpg",
+      "alt": "VANONE — photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/15.jpg",
+      "alt": "VANONE — photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/16.jpg",
+      "alt": "VANONE — photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/17.jpg",
+      "alt": "VANONE — photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/18.jpg",
+      "alt": "VANONE — photograph 18",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/19.jpg",
+      "alt": "VANONE — photograph 19",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/vanone/20.jpg",
+      "alt": "VANONE — photograph 20",
       "orientation": "portrait"
     }
   ]
@@ -1472,6 +1705,7 @@ export const homepageFeaturedSlugs = [
   "Zara",
   "Galleria",
   "hazzys",
+  "the-nockin",
   "blue",
   "sieor",
   "marithe",
@@ -1479,6 +1713,7 @@ export const homepageFeaturedSlugs = [
   "maison-seole",
   "cinema",
   "greenbutter",
+  "vanone",
   "LA_eql",
   "Loeil_studio",
   "Arha",
@@ -1500,12 +1735,14 @@ export const brandHighlights = [
   "Zara",
   "Galleria",
   "HAZZYS",
+  "The Nockin",
   "blue",
   "SIEOR",
   "MARITHÉ",
   "SATUR",
   "MAISON SEOLE",
   "Greenbutter",
+  "VANONE",
   "LA_eql",
   "Loeil_studio",
 ];

@@ -2008,8 +2008,8 @@ footer {
 
 /* Keep the supplied VANONE ATELIER logo readable despite its outer padding. */
 .home-featured-card .project-card__logo[src="/logos/vanone-atelier-logo.png"] {
-  width: 52% !important;
+  width: 40% !important;
   max-height: none !important;
-  bottom: -8% !important;
-  right: -7% !important;
+  bottom: -6% !important;
+  right: -5% !important;
 }

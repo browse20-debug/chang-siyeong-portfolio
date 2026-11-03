@@ -828,6 +828,7 @@ export const projects: Project[] = [
 },
 {
   "slug": "nuakle",
+  "logo": "/logos/nuakle-logo.png",
   "title": "NUAKLE",
   "category": "Fashion",
   "year": "2023–2025",

@@ -1837,7 +1837,8 @@ footer {
 .project-card__logo[src="/logos/the-nockin-logo.png"],
 .project-card__logo[src="/logos/sieor-logo.svg"],
 .project-card__logo[src="/logos/loeil-logo.png"],
-.project-card__logo[src="/logos/arha-logo.png"] {
+.project-card__logo[src="/logos/arha-logo.png"],
+.project-card__logo[src="/logos/nuakle-logo.png"] {
   width: 30% !important;
   max-width: 140px !important;
   max-height: 40px !important;

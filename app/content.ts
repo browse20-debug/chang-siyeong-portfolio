@@ -1781,7 +1781,111 @@ export const projects: Project[] = [
 
     ],
   },
-   {
+ {
+  "slug": "rachel-cox",
+  "title": "RACHEL COX",
+  "category": "Fashion",
+  "year": "2026",
+  "size": "portrait",
+  "cover": "/photos/rachel-cox/01.jpg",
+  "description": "Footwear campaign photography for RACHEL COX.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "RACHEL COX"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/DeqfyyOFEw4/"
+  ],
+  "gallery": [
+    {
+      "src": "/photos/rachel-cox/01.jpg",
+      "alt": "RACHEL COX — photograph 01",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/02.jpg",
+      "alt": "RACHEL COX — photograph 02",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/03.jpg",
+      "alt": "RACHEL COX — photograph 03",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/04.jpg",
+      "alt": "RACHEL COX — photograph 04",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/05.jpg",
+      "alt": "RACHEL COX — photograph 05",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/06.jpg",
+      "alt": "RACHEL COX — photograph 06",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/07.jpg",
+      "alt": "RACHEL COX — photograph 07",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/08.jpg",
+      "alt": "RACHEL COX — photograph 08",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/09.jpg",
+      "alt": "RACHEL COX — photograph 09",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/10.jpg",
+      "alt": "RACHEL COX — photograph 10",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/11.jpg",
+      "alt": "RACHEL COX — photograph 11",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/12.jpg",
+      "alt": "RACHEL COX — photograph 12",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/13.jpg",
+      "alt": "RACHEL COX — photograph 13",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/14.jpg",
+      "alt": "RACHEL COX — photograph 14",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/15.jpg",
+      "alt": "RACHEL COX — photograph 15",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/rachel-cox/16.jpg",
+      "alt": "RACHEL COX — photograph 16",
+      "orientation": "wide"
+    }
+  ]
+},
+  {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "LA_eql",
     title: "LA_eql",
@@ -2080,6 +2184,7 @@ export const homepageFeaturedSlugs = [
   "maison-seole",
   "cinema",
   "greenbutter",
+  "rachel-cox",
   "vanone",
   "satur-eyewear",
   "abbr",
@@ -2112,6 +2217,7 @@ export const brandHighlights = [
   "SATUR",
   "MAISON SEOLE",
   "Greenbutter",
+  "RACHEL COX",
   "VANONE",
   "SATUR Eyewear",
   "ABBR",

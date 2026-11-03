@@ -44,7 +44,6 @@ export default function Home() {
         </div>
         <div className="hero-note">
           <p className="hero-statement">Fashion, people, and the moments in between.</p>
-          <a className="hero-work-link" href="#home-featured-title">Explore the photographs <span aria-hidden="true">↓</span></a>
         </div>
         <div className="hero-meta" aria-label="Photographer information">
           <p>Fashion · Editorial · Commissions</p>

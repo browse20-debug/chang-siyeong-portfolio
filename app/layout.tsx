@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     title: "Chang Siyeong — Photographer",
     description:
       "Fashion, lookbook, commerce and advertising photography from Seoul.",
-    images: [{ url: "/og.png", width: 1200, height: 630 }],
+    images: [{ url: "/og.png?v=20261103-road", width: 1200, height: 800 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Chang Siyeong — Photographer",
     description:
       "Fashion, lookbook, commerce and advertising photography from Seoul.",
-    images: ["/og.png"],
+    images: ["/og.png?v=20261103-road"],
   },
 };
 

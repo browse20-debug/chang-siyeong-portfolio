@@ -1303,7 +1303,7 @@ export const projects: Project[] = [
 },
 {
   "slug": "vanone",
-  "logo": "/logos/vanone-atelier-logo.png",
+  "logo": "/logos/vanone-atelier-wordmark.png",
   "title": "VANONE",
   "category": "Fashion",
   "year": "2026",
@@ -1498,6 +1498,7 @@ export const projects: Project[] = [
 },
 {
   "slug": "abbr",
+  "logo": "/logos/abbr-logo.png",
   "title": "ABBR",
   "category": "Beauty",
   "year": "2025",
@@ -2490,6 +2491,113 @@ export const projects: Project[] = [
     "https://www.instagram.com/p/DN7QrYwCZcS/"
   ]
 },
+
+{
+  "slug": "malen",
+  "title": "MALEN",
+  "logo": "/logos/malen-logo.svg",
+  "category": "Fashion",
+  "year": "2024–2025",
+  "size": "portrait",
+  "cover": "/photos/malen/DGR3B-opbTE/01.jpg",
+  "instagramPosts": [
+    "https://www.instagram.com/p/DGR3B-opbTE/",
+    "https://www.instagram.com/p/C_XEMFlpAE_/"
+  ],
+  "description": "Fashion photography for MALEN.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "MALEN"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/photos/malen/DGR3B-opbTE/01.jpg",
+      "alt": "MALEN — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/DGR3B-opbTE/02.jpg",
+      "alt": "MALEN — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/DGR3B-opbTE/03.jpg",
+      "alt": "MALEN — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/DGR3B-opbTE/04.jpg",
+      "alt": "MALEN — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/DGR3B-opbTE/05.jpg",
+      "alt": "MALEN — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/DGR3B-opbTE/06.jpg",
+      "alt": "MALEN — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/DGR3B-opbTE/07.jpg",
+      "alt": "MALEN — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/DGR3B-opbTE/08.jpg",
+      "alt": "MALEN — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/DGR3B-opbTE/09.jpg",
+      "alt": "MALEN — photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/DGR3B-opbTE/10.jpg",
+      "alt": "MALEN — photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/DGR3B-opbTE/11.jpg",
+      "alt": "MALEN — photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/C_XEMFlpAE_/01.jpg",
+      "alt": "MALEN — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/C_XEMFlpAE_/02.jpg",
+      "alt": "MALEN — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/C_XEMFlpAE_/03.jpg",
+      "alt": "MALEN — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/C_XEMFlpAE_/04.jpg",
+      "alt": "MALEN — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/malen/C_XEMFlpAE_/05.jpg",
+      "alt": "MALEN — photograph 05",
+      "orientation": "portrait"
+    }
+  ]
+},
   {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "Loeil_studio",
@@ -2833,6 +2941,122 @@ export const projects: Project[] = [
   "logo": "/logos/nuage-house-logo.png",
   "logoTheme": "dark"
 },
+
+{
+  "slug": "satur-kids",
+  "title": "SATUR KIDS",
+  "logo": "/logos/satur-kids-logo.svg",
+  "category": "Fashion",
+  "year": "2026",
+  "size": "portrait",
+  "cover": "/photos/satur-kids/01.jpg",
+  "instagramPosts": [
+    "https://www.instagram.com/p/DctQVb4FPQf/"
+  ],
+  "description": "Fashion photography for SATUR KIDS.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "SATUR KIDS"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/photos/satur-kids/01.jpg",
+      "alt": "SATUR KIDS — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/02.jpg",
+      "alt": "SATUR KIDS — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/03.jpg",
+      "alt": "SATUR KIDS — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/04.jpg",
+      "alt": "SATUR KIDS — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/05.jpg",
+      "alt": "SATUR KIDS — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/06.jpg",
+      "alt": "SATUR KIDS — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/07.jpg",
+      "alt": "SATUR KIDS — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/08.jpg",
+      "alt": "SATUR KIDS — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/09.jpg",
+      "alt": "SATUR KIDS — photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/10.jpg",
+      "alt": "SATUR KIDS — photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/11.jpg",
+      "alt": "SATUR KIDS — photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/12.jpg",
+      "alt": "SATUR KIDS — photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/13.jpg",
+      "alt": "SATUR KIDS — photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/14.jpg",
+      "alt": "SATUR KIDS — photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/15.jpg",
+      "alt": "SATUR KIDS — photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/16.jpg",
+      "alt": "SATUR KIDS — photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/17.jpg",
+      "alt": "SATUR KIDS — photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/satur-kids/18.jpg",
+      "alt": "SATUR KIDS — photograph 18",
+      "orientation": "portrait"
+    }
+  ]
+},
 {
   "slug": "ouro",
   "title": "OURO",
@@ -2993,10 +3217,12 @@ export const homepageFeaturedSlugs = [
   "satur-eyewear",
   "abbr",
   "LA_eql",
+  "malen",
   "Loeil_studio",
   "Arha",
   "orlfa",
   "editorial-dymyxzwfa7o",
+  "satur-kids",
 ];
 
 const orderedHomepageProjects = homepageFeaturedSlugs

@@ -2017,14 +2017,6 @@ footer {
   transform: translateY(-5%) scale(1.60);
 }
 
-/* Keep the supplied VANONE ATELIER logo readable despite its outer padding. */
-.home-featured-card .project-card__logo[src="/logos/vanone-atelier-logo.png"] {
-  width: 40% !important;
-  max-height: none !important;
-  bottom: -6% !important;
-  right: -5% !important;
-}
-
 /* Personal journal: spacious photographs, separate from commissioned work. */
 .home-journal { position: relative; z-index: 10; background: #f6f5f1; color: #292925; padding: 100px 7vw 110px; }
 .home-journal__heading { display: flex; justify-content: space-between; align-items: end; gap: 28px; margin-bottom: 52px; }
@@ -2129,4 +2121,23 @@ footer {
 }
 .celebrity-highlights .brand-name-list {
   margin-top: 22px;
+}
+
+/* Official wordmarks retain their aspect ratios. */
+.project-card__logo[src="/logos/satur-kids-logo.svg"],
+.project-card__logo[src="/logos/malen-logo.svg"] {
+  width: 30% !important; max-width: 140px !important; max-height: 40px !important;
+  bottom: 12px !important;
+  right: 12px !important;
+  object-fit: contain;
+}
+
+
+.project-card__logo[src="/logos/abbr-logo.png"],
+.project-card__logo[src="/logos/vanone-atelier-wordmark.png"] {
+  width: 30% !important;
+  max-width: 140px !important;
+  max-height: 40px !important;
+  bottom: 12px !important;
+  right: 12px !important;
 }

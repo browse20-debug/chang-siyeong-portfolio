@@ -3259,7 +3259,7 @@ export const brandHighlights = [
   "Loeil_studio",
   "NUAGE HOUSE",
   "ORLFA",
-  "Heydealer",
+  "hey”dealer",
   "JMW",
   "GOXO",
   "whitesands",

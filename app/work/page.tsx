@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { WorkIndex } from "../WorkIndex";
-import { brandHighlights, profile, projects } from "../content";
+import { brandHighlights, celebrityHighlights, profile, projects } from "../content";
 
 export const metadata: Metadata = {
   title: "Work",
@@ -81,6 +81,15 @@ export default function WorkPage() {
             <li key={brand}>{brand}</li>
           ))}
         </ul>
+
+        <div className="celebrity-highlights" aria-labelledby="celebrity-highlights-title" data-reveal>
+          <h3 id="celebrity-highlights-title">Celebrities</h3>
+          <ul className="brand-name-list">
+            {celebrityHighlights.map((celebrity) => (
+              <li key={celebrity}>{celebrity}</li>
+            ))}
+          </ul>
+        </div>
       </section>
 
       <footer id="contact" data-reveal>

@@ -1632,230 +1632,504 @@ export const projects: Project[] = [
   ]
 },
   {
-    // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
-    slug: "greenbutter",
-    title: "Greenbutter",
-    category: "Fashion",
-    year: "2026",
-    size: "portrait",
-    cover: "/photos/greenbutter/DeMO5RGlIuT/01.jpg",
-   // logo: "/logos/Greenbutter-logo.png",
-
-    description:
-      "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
-    credits: [
-      { label: "Photography", value: "Chang Siyeong" },
-      { label: "Client", value: "Greenbutter" },
-      { label: "Type", value: "fashion" },
-      { label: "Set", value: "Studio" },
-    ],
-    gallery: [
-      // New shoots go first; preserve earlier shoots below in their original order.
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/01.jpg",
-        alt: "Greenbutter — photograph 01",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/02.jpg",
-        alt: "Greenbutter — photograph 02",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/03.jpg",
-        alt: "Greenbutter — photograph 03",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/04.jpg",
-        alt: "Greenbutter — photograph 04",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/05.jpg",
-        alt: "Greenbutter — photograph 05",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/06.jpg",
-        alt: "Greenbutter — photograph 06",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/07.jpg",
-        alt: "Greenbutter — photograph 07",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/08.jpg",
-        alt: "Greenbutter — photograph 08",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/09.jpg",
-        alt: "Greenbutter — photograph 09",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/10.jpg",
-        alt: "Greenbutter — photograph 10",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/11.jpg",
-        alt: "Greenbutter — photograph 11",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/12.jpg",
-        alt: "Greenbutter — photograph 12",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/13.jpg",
-        alt: "Greenbutter — photograph 13",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/14.jpg",
-        alt: "Greenbutter — photograph 14",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/15.jpg",
-        alt: "Greenbutter — photograph 15",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/16.jpg",
-        alt: "Greenbutter — photograph 16",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/17.jpg",
-        alt: "Greenbutter — photograph 17",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/18.jpg",
-        alt: "Greenbutter — photograph 18",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/19.jpg",
-        alt: "Greenbutter — photograph 19",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/DeMO5RGlIuT/20.jpg",
-        alt: "Greenbutter — photograph 20",
-        orientation: "portrait",
-      },
-      // Earlier shoot — retained.
-      {
-        src: "/photos/greenbutter/26ss4/01.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/02.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/03.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/04.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/05.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/06.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/07.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/08.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/09.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/10.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/11.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/12.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/13.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/14.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/15.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/16.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/17.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/greenbutter/26ss4/18.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },{
-        src: "/photos/greenbutter/26ss4/19.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },{
-        src: "/photos/greenbutter/26ss4/20.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-
-      
-    
-
-    ],
-  },
+  "slug": "greenbutter",
+  "title": "Greenbutter",
+  "category": "Fashion",
+  "year": "2025–2026",
+  "size": "portrait",
+  "cover": "/photos/greenbutter/DeMO5RGlIuT/01.jpg",
+  "description": "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "Greenbutter"
+    },
+    {
+      "label": "Type",
+      "value": "fashion"
+    },
+    {
+      "label": "Set",
+      "value": "Studio"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/01.jpg",
+      "alt": "Greenbutter — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/02.jpg",
+      "alt": "Greenbutter — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/03.jpg",
+      "alt": "Greenbutter — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/04.jpg",
+      "alt": "Greenbutter — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/05.jpg",
+      "alt": "Greenbutter — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/06.jpg",
+      "alt": "Greenbutter — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/07.jpg",
+      "alt": "Greenbutter — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/08.jpg",
+      "alt": "Greenbutter — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/09.jpg",
+      "alt": "Greenbutter — photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/10.jpg",
+      "alt": "Greenbutter — photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/11.jpg",
+      "alt": "Greenbutter — photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/12.jpg",
+      "alt": "Greenbutter — photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/13.jpg",
+      "alt": "Greenbutter — photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/14.jpg",
+      "alt": "Greenbutter — photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/15.jpg",
+      "alt": "Greenbutter — photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/16.jpg",
+      "alt": "Greenbutter — photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/17.jpg",
+      "alt": "Greenbutter — photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/18.jpg",
+      "alt": "Greenbutter — photograph 18",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/19.jpg",
+      "alt": "Greenbutter — photograph 19",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DeMO5RGlIuT/20.jpg",
+      "alt": "Greenbutter — photograph 20",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/01.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/02.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/03.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/04.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/05.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/06.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/07.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/08.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/09.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/10.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/11.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/12.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/13.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/14.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/15.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/16.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/17.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/18.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/19.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/26ss4/20.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/01.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/02.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/03.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/04.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/05.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/06.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/07.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/08.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/09.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/10.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/11.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/12.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/13.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/14.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/15.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/16.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DVIsTOElE4n/17.jpg",
+      "alt": "Greenbutter — DVIsTOElE4n photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/01.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/02.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/03.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/04.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/05.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/06.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/07.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/08.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/09.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/10.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/11.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/12.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/13.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/14.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/15.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DOUpVGFEjbn/16.jpg",
+      "alt": "Greenbutter — DOUpVGFEjbn photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/01.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/02.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/03.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/04.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/05.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/06.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/07.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/08.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/09.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/10.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/11.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/12.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/13.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/14.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/15.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/16.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/17.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/18.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 18",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/19.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 19",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/greenbutter/DPpq_vLia55/20.jpg",
+      "alt": "Greenbutter — DPpq_vLia55 photograph 20",
+      "orientation": "portrait"
+    }
+  ],
+  "instagramPosts": [
+    "https://www.instagram.com/p/DVIsTOElE4n/",
+    "https://www.instagram.com/p/DOUpVGFEjbn/",
+    "https://www.instagram.com/p/DPpq_vLia55/"
+  ]
+},
  {
   "slug": "rachel-cox",
   "logo": "/logos/rachel-cox-logo.png",
@@ -1961,113 +2235,262 @@ export const projects: Project[] = [
     }
   ]
 },
-  {
-    // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
-    slug: "LA_eql",
-    title: "LA_eql",
-    category: "Fashion",
-    year: "2026",
-    size: "portrait",
-    cover:"/photos/la_eql/26fw/cover.jpg",
-   // logo: "/logos/LA_EQL-logo.png",
-
-    description:
-      "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
-    credits: [
-      { label: "Photography", value: "Chang Siyeong" },
-      { label: "Client", value: "LA_eql" },
-      { label: "Type", value: "Fashion" },
-      { label: "Set", value: "Studio" },
-    ],
-    gallery: [
-      {
-        src: "/photos/la_eql/26fw/01.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/02.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/03.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/04.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/05.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/06.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/07.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/08.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/09.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/10.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/11.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/12.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/13.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/14.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/15.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/la_eql/26fw/16.jpg",
-        alt: "Model in a graphic look",
-        orientation: "portrait",
-      },
-      
-
-      
-    
-
-    ],
-  },
+{
+  "slug": "LA_eql",
+  "title": "LA_eql",
+  "category": "Fashion",
+  "year": "2025–2026",
+  "size": "portrait",
+  "cover": "/photos/la_eql/26fw/cover.jpg",
+  "description": "Commerce and advertising images composed with clear form, quiet color, and tactile product detail.",
+  "credits": [
     {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "LA_eql"
+    },
+    {
+      "label": "Type",
+      "value": "Fashion"
+    },
+    {
+      "label": "Set",
+      "value": "Studio"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/photos/la_eql/26fw/01.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/02.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/03.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/04.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/05.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/06.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/07.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/08.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/09.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/10.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/11.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/12.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/13.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/14.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/15.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/26fw/16.jpg",
+      "alt": "Model in a graphic look",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DTvC1hpCVk8/01.jpg",
+      "alt": "EQL — DTvC1hpCVk8 photograph 01",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/la_eql/DTvC1hpCVk8/02.jpg",
+      "alt": "EQL — DTvC1hpCVk8 photograph 02",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/la_eql/DTvC1hpCVk8/03.jpg",
+      "alt": "EQL — DTvC1hpCVk8 photograph 03",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/la_eql/DTvC1hpCVk8/04.jpg",
+      "alt": "EQL — DTvC1hpCVk8 photograph 04",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/la_eql/DTvC1hpCVk8/05.jpg",
+      "alt": "EQL — DTvC1hpCVk8 photograph 05",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/la_eql/DTvC1hpCVk8/06.jpg",
+      "alt": "EQL — DTvC1hpCVk8 photograph 06",
+      "orientation": "wide"
+    },
+    {
+      "src": "/photos/la_eql/DTvCv_9CSp0/01.jpg",
+      "alt": "EQL — DTvCv_9CSp0 photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DTvCv_9CSp0/02.jpg",
+      "alt": "EQL — DTvCv_9CSp0 photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/01.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/02.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/03.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/04.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/05.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/06.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/07.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/08.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/09.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/10.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/11.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/12.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 12",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/13.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 13",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/14.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 14",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/15.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 15",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/16.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 16",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/17.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 17",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/18.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 18",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/19.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 19",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/la_eql/DN7QrYwCZcS/20.jpg",
+      "alt": "EQL — DN7QrYwCZcS photograph 20",
+      "orientation": "portrait"
+    }
+  ],
+  "logo": "/logos/eql-wordmark.svg",
+  "instagramPosts": [
+    "https://www.instagram.com/p/DTvC1hpCVk8/",
+    "https://www.instagram.com/p/DTvCv_9CSp0/",
+    "https://www.instagram.com/p/DN7QrYwCZcS/"
+  ]
+},
+  {
     // 실제 브랜드명으로 바꾸고 gallery에 사진을 계속 추가하세요.
     slug: "Loeil_studio",
     logo: "/logos/loeil-logo.png",
@@ -2244,6 +2667,173 @@ export const projects: Project[] = [
     ],
   },
 {
+  "slug": "orlfa",
+  "title": "ORLFA",
+  "logo": "/logos/orlfa-logo.svg",
+  "category": "Fashion",
+  "year": "2025–2026",
+  "size": "portrait",
+  "cover": "/photos/orlfa/07.jpg",
+  "instagramPosts": [
+    "https://www.instagram.com/p/DNZ5xi_pVdX/",
+    "https://www.instagram.com/p/DVM8qVUkgKv/",
+    "https://www.instagram.com/p/DVM8YRvkuJn/",
+    "https://www.instagram.com/p/DT-IMOFCcko/"
+  ],
+  "description": "Fashion photography for ORLFA.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "ORLFA"
+    },
+    {
+      "label": "Type",
+      "value": "Fashion"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/photos/orlfa/07.jpg",
+      "alt": "ORLFA — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/08.jpg",
+      "alt": "ORLFA — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/09.jpg",
+      "alt": "ORLFA — photograph 09",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/10.jpg",
+      "alt": "ORLFA — photograph 10",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/11.jpg",
+      "alt": "ORLFA — photograph 11",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/01.jpg",
+      "alt": "ORLFA — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/02.jpg",
+      "alt": "ORLFA — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/03.jpg",
+      "alt": "ORLFA — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/04.jpg",
+      "alt": "ORLFA — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/05.jpg",
+      "alt": "ORLFA — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/06.jpg",
+      "alt": "ORLFA — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/orlfa/12.jpg",
+      "alt": "ORLFA — photograph 12",
+      "orientation": "wide"
+    }
+  ]
+},
+{
+  "slug": "editorial-dymyxzwfa7o",
+  "title": "NUAGE HOUSE",
+  "category": "Fashion",
+  "year": "2026",
+  "size": "portrait",
+  "cover": "/photos/editorial-dymyxzwfa7o/01.jpg",
+  "instagramPosts": [
+    "https://www.instagram.com/p/DYmYxzWFA7O/"
+  ],
+  "description": "Fashion photography for NUAGE HOUSE.",
+  "credits": [
+    {
+      "label": "Photography",
+      "value": "Chang Siyeong"
+    },
+    {
+      "label": "Client",
+      "value": "NUAGE HOUSE"
+    },
+    {
+      "label": "Type",
+      "value": "Fashion"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/photos/editorial-dymyxzwfa7o/01.jpg",
+      "alt": "NUAGE HOUSE — photograph 01",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/editorial-dymyxzwfa7o/02.jpg",
+      "alt": "NUAGE HOUSE — photograph 02",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/editorial-dymyxzwfa7o/03.jpg",
+      "alt": "NUAGE HOUSE — photograph 03",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/editorial-dymyxzwfa7o/04.jpg",
+      "alt": "NUAGE HOUSE — photograph 04",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/editorial-dymyxzwfa7o/05.jpg",
+      "alt": "NUAGE HOUSE — photograph 05",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/editorial-dymyxzwfa7o/06.jpg",
+      "alt": "NUAGE HOUSE — photograph 06",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/editorial-dymyxzwfa7o/07.jpg",
+      "alt": "NUAGE HOUSE — photograph 07",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/editorial-dymyxzwfa7o/08.jpg",
+      "alt": "NUAGE HOUSE — photograph 08",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/photos/editorial-dymyxzwfa7o/09.jpg",
+      "alt": "NUAGE HOUSE — photograph 09",
+      "orientation": "portrait"
+    }
+  ],
+  "logo": "/logos/nuage-house-logo.png",
+  "logoTheme": "dark"
+},
+{
   "slug": "ouro",
   "title": "OURO",
   "category": "Fashion",
@@ -2397,6 +2987,7 @@ export const homepageFeaturedSlugs = [
   "maison-seole",
   "cinema",
   "greenbutter",
+  "ouro",
   "rachel-cox",
   "vanone",
   "satur-eyewear",
@@ -2404,7 +2995,8 @@ export const homepageFeaturedSlugs = [
   "LA_eql",
   "Loeil_studio",
   "Arha",
-  "ouro",
+  "orlfa",
+  "editorial-dymyxzwfa7o",
 ];
 
 const orderedHomepageProjects = homepageFeaturedSlugs
@@ -2432,15 +3024,30 @@ export const brandHighlights = [
   "NEEV",
   "MAISON SEOLE",
   "Greenbutter",
+  "OURO",
   "RACHEL COX",
   "VANONE",
   "SATUR Eyewear",
   "ABBR",
   "LA_eql",
   "Loeil_studio",
-  "OURO",
+  "NUAGE HOUSE",
+  "ORLFA",
+  "헤이딜러",
+  "JMW",
+  "GOXO",
+  "whitesands",
 ];
 
 export function getProject(slug: string) {
   return projects.find((project) => project.slug === slug);
 }
+
+export const celebrityHighlights = [
+  "시아준수",
+  "모니카",
+  "쿤타",
+  "시도",
+  "가호",
+  "박민영",
+];

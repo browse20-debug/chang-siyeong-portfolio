@@ -1841,7 +1841,9 @@ footer {
 .project-card__logo[src="/logos/nuakle-logo.png"],
 .project-card__logo[src="/logos/rachel-cox-logo.png"],
 .project-card__logo[src="/logos/neev-logo.png"],
-.project-card__logo[src="/logos/ouro-logo.svg"] {
+.project-card__logo[src="/logos/ouro-logo.svg"],
+.project-card__logo[src="/logos/orlfa-logo.svg"],
+.project-card__logo[src="/logos/nuage-house-logo.png"] {
   width: 30% !important;
   max-width: 140px !important;
   max-height: 40px !important;
@@ -2098,4 +2100,33 @@ footer {
   .journal-page .journal-sequence figure:nth-child(4n + 3) { width: 84%; margin-left: 0; }
   .journal-page .journal-sequence figure:nth-child(4n) { width: 94%; margin-left: 6%; }
   .journal-page .journal-end { margin-top: 90px; }
+}
+
+/* Compact custom EQL wordmark. */
+.project-card__logo[src="/logos/eql-wordmark.svg"] {
+  width: 24% !important;
+  max-width: 90px !important;
+  max-height: 30px !important;
+  bottom: 12px !important;
+  right: 12px !important;
+}
+.project-viewer__logo[src="/logos/eql-wordmark.svg"] {
+  height: 24px !important;
+  width: auto !important;
+}
+
+.celebrity-highlights {
+  margin-top: 42px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.celebrity-highlights h3 {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.celebrity-highlights .brand-name-list {
+  margin-top: 22px;
 }

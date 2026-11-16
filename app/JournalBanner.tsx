@@ -10,6 +10,7 @@ const bannerPhotos = [
   "/photos/journal/after-dark.jpg",
   "/photos/journal/stone-and-light.jpg",
   "/photos/journal/the-winding-road.jpg",
+  "/photos/editorial/07.jpg",
 ];
 
 export function JournalBanner() {

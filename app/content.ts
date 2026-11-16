@@ -612,7 +612,7 @@ export const projects: Project[] = [
   },
   {
     "slug": "editorial",
-    "title": "Editorial",
+    "title": "An Autumn Story",
     "category": "Editorial",
     "year": "2026",
     "size": "portrait",

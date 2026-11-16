@@ -15,6 +15,7 @@ export const profile = {
   // 첫 배너 사진 목록입니다. "/photos/파일명.jpg" 형식으로 자유롭게 교체하세요.
   heroImages: [
     "/photos/main-01.jpg",
+    "/photos/editorial/01.jpg",
     "/photos/main-02.jpg",
     "/photos/main-03.jpg",
     "/photos/main-04.jpg",
@@ -94,11 +95,6 @@ export const projects: Project[] = [
       },
       {
         src: "/photos/zara/06.jpg",
-        alt: "Fashion portrait in a minimal studio",
-        orientation: "portrait",
-      },
-      {
-        src: "/photos/zara/07.jpg",
         alt: "Fashion portrait in a minimal studio",
         orientation: "portrait",
       },
@@ -613,6 +609,127 @@ export const projects: Project[] = [
     
 
     ],
+  },
+  {
+    "slug": "editorial",
+    "title": "Editorial",
+    "category": "Editorial",
+    "year": "2026",
+    "size": "portrait",
+    "cover": "/photos/editorial/01.jpg",
+    "description": "An Autumn Story.",
+    "credits": [
+      {
+        "label": "Photography",
+        "value": "Chang Siyeong"
+      },
+      {
+        "label": "Type",
+        "value": "Editorial"
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/photos/editorial/01.jpg",
+        "alt": "An Autumn Story — photograph 01",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/02.jpg",
+        "alt": "An Autumn Story — photograph 02",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/03.jpg",
+        "alt": "An Autumn Story — photograph 03",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/04.jpg",
+        "alt": "An Autumn Story — photograph 04",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/05.jpg",
+        "alt": "An Autumn Story — photograph 05",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/06.jpg",
+        "alt": "An Autumn Story — photograph 06",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/07.jpg",
+        "alt": "An Autumn Story — photograph 07",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/08.jpg",
+        "alt": "An Autumn Story — photograph 08",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/09.jpg",
+        "alt": "An Autumn Story — photograph 09",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/10.jpg",
+        "alt": "An Autumn Story — photograph 10",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/11.jpg",
+        "alt": "An Autumn Story — photograph 11",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/12.jpg",
+        "alt": "An Autumn Story — photograph 12",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/13.jpg",
+        "alt": "An Autumn Story — photograph 13",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/14.jpg",
+        "alt": "An Autumn Story — photograph 14",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/15.jpg",
+        "alt": "An Autumn Story — photograph 15",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/16.jpg",
+        "alt": "An Autumn Story — photograph 16",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/17.jpg",
+        "alt": "An Autumn Story — photograph 17",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/18.jpg",
+        "alt": "An Autumn Story — photograph 18",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/19.jpg",
+        "alt": "An Autumn Story — photograph 19",
+        "orientation": "wide"
+      },
+      {
+        "src": "/photos/editorial/20.jpg",
+        "alt": "An Autumn Story — photograph 20",
+        "orientation": "wide"
+      }
+    ]
   },
   {
     slug: "hazzys",
@@ -3200,6 +3317,7 @@ export const projects: Project[] = [
 export const homepageFeaturedSlugs = [
   "Zara",
   "Galleria",
+  "editorial",
   "hazzys",
   "the-nockin",
   "nuakle",
